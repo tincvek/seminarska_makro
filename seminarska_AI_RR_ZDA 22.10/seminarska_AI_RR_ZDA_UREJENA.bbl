@@ -1,0 +1,269 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bresnahan1995}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a45e952216a4661b3c133a6742ab669a}{%
+           family={Bresnahan},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89a5f929407017c13e56780461b8a441}{%
+           family={Trajtenberg},
+           familyi={T\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20151c611584c6a8942aec00036abc96}
+      \strng{fullhash}{20151c611584c6a8942aec00036abc96}
+      \strng{bibnamehash}{20151c611584c6a8942aec00036abc96}
+      \strng{authorbibnamehash}{20151c611584c6a8942aec00036abc96}
+      \strng{authornamehash}{20151c611584c6a8942aec00036abc96}
+      \strng{authorfullhash}{20151c611584c6a8942aec00036abc96}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Econometrics}
+      \field{number}{1}
+      \field{title}{General Purpose Technologies: Engines of Growth?}
+      \field{volume}{65}
+      \field{year}{1995}
+      \field{pages}{83\bibrangedash 108}
+      \range{pages}{26}
+    \endentry
+    \entry{ncses2025}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=197758434fb14d44b5949fd1b210bd40}{%
+           family={{National Center for Science and Engineering Statistics}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{197758434fb14d44b5949fd1b210bd40}
+      \strng{fullhash}{197758434fb14d44b5949fd1b210bd40}
+      \strng{bibnamehash}{197758434fb14d44b5949fd1b210bd40}
+      \strng{authorbibnamehash}{197758434fb14d44b5949fd1b210bd40}
+      \strng{authornamehash}{197758434fb14d44b5949fd1b210bd40}
+      \strng{authorfullhash}{197758434fb14d44b5949fd1b210bd40}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{U.S. R\&D expenditures, by performing sector and source of funds: 2010--23}
+      \field{urlday}{20}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ncses.nsf.gov/pubs/nsb20257/table/DISC-1
+      \endverb
+      \verb{url}
+      \verb https://ncses.nsf.gov/pubs/nsb20257/table/DISC-1
+      \endverb
+    \endentry
+    \entry{nitrd2025}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a02c112fb4f91036b7942970aa9cd5f1}{%
+           family={{Networking and Information Technology Research and Development Program}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{fullhash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{bibnamehash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{authorbibnamehash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{authornamehash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{authorfullhash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Artificial Intelligence R\&D Investments Fiscal Year 2019--Fiscal Year 2025}
+      \field{urlday}{20}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nitrd.gov/ai-rd-investments/
+      \endverb
+      \verb{url}
+      \verb https://www.nitrd.gov/ai-rd-investments/
+      \endverb
+    \endentry
+    \entry{polanec_rast}{unpublished}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c7e879884ccccc363bdd9515e14ef18b}{%
+           family={Polanec},
+           familyi={P\bibinitperiod},
+           given={Sašo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c7e879884ccccc363bdd9515e14ef18b}
+      \strng{fullhash}{c7e879884ccccc363bdd9515e14ef18b}
+      \strng{bibnamehash}{c7e879884ccccc363bdd9515e14ef18b}
+      \strng{authorbibnamehash}{c7e879884ccccc363bdd9515e14ef18b}
+      \strng{authornamehash}{c7e879884ccccc363bdd9515e14ef18b}
+      \strng{authorfullhash}{c7e879884ccccc363bdd9515e14ef18b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zapiski predavanj pri makroekonomiji}
+      \field{title}{Teorija rasti}
+      \field{year}{n.d.}
+    \endentry
+    \entry{romer1986}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9fef23c81fd49d969a17f8db3046f51f}{%
+           family={Romer},
+           familyi={R\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9fef23c81fd49d969a17f8db3046f51f}
+      \strng{fullhash}{9fef23c81fd49d969a17f8db3046f51f}
+      \strng{bibnamehash}{9fef23c81fd49d969a17f8db3046f51f}
+      \strng{authorbibnamehash}{9fef23c81fd49d969a17f8db3046f51f}
+      \strng{authornamehash}{9fef23c81fd49d969a17f8db3046f51f}
+      \strng{authorfullhash}{9fef23c81fd49d969a17f8db3046f51f}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{5}
+      \field{title}{Increasing Returns and Long-Run Growth}
+      \field{volume}{94}
+      \field{year}{1986}
+      \field{pages}{1002\bibrangedash 1037}
+      \range{pages}{36}
+    \endentry
+    \entry{romer1990}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9fef23c81fd49d969a17f8db3046f51f}{%
+           family={Romer},
+           familyi={R\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9fef23c81fd49d969a17f8db3046f51f}
+      \strng{fullhash}{9fef23c81fd49d969a17f8db3046f51f}
+      \strng{bibnamehash}{9fef23c81fd49d969a17f8db3046f51f}
+      \strng{authorbibnamehash}{9fef23c81fd49d969a17f8db3046f51f}
+      \strng{authornamehash}{9fef23c81fd49d969a17f8db3046f51f}
+      \strng{authorfullhash}{9fef23c81fd49d969a17f8db3046f51f}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Economy}
+      \field{number}{5}
+      \field{title}{Endogenous Technological Change}
+      \field{volume}{98}
+      \field{year}{1990}
+      \field{pages}{S71\bibrangedash S102}
+      \range{pages}{-1}
+    \endentry
+    \entry{bls2026tfp}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1dd47a822521d43ebc6c17a6a2917cc6}{%
+           family={{U.S. Bureau of Labor Statistics}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{1dd47a822521d43ebc6c17a6a2917cc6}
+      \strng{fullhash}{1dd47a822521d43ebc6c17a6a2917cc6}
+      \strng{bibnamehash}{1dd47a822521d43ebc6c17a6a2917cc6}
+      \strng{authorbibnamehash}{1dd47a822521d43ebc6c17a6a2917cc6}
+      \strng{authornamehash}{1dd47a822521d43ebc6c17a6a2917cc6}
+      \strng{authorfullhash}{1dd47a822521d43ebc6c17a6a2917cc6}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Total Factor Productivity -- 2025}
+      \field{urlday}{20}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bls.gov/news.release/archives/prod3_03192026.htm
+      \endverb
+      \verb{url}
+      \verb https://www.bls.gov/news.release/archives/prod3_03192026.htm
+      \endverb
+    \endentry
+    \entry{uspto2025aipd}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=230550a629e507b9206adb89aee6bc94}{%
+           family={{United States Patent and Trademark Office}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{230550a629e507b9206adb89aee6bc94}
+      \strng{fullhash}{230550a629e507b9206adb89aee6bc94}
+      \strng{bibnamehash}{230550a629e507b9206adb89aee6bc94}
+      \strng{authorbibnamehash}{230550a629e507b9206adb89aee6bc94}
+      \strng{authornamehash}{230550a629e507b9206adb89aee6bc94}
+      \strng{authorfullhash}{230550a629e507b9206adb89aee6bc94}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Artificial Intelligence Patent Dataset (AIPD) 2023 Update}
+      \field{urlday}{20}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.uspto.gov/ip-policy/economic-research/research-datasets/artificial-intelligence-patent-dataset
+      \endverb
+      \verb{url}
+      \verb https://www.uspto.gov/ip-policy/economic-research/research-datasets/artificial-intelligence-patent-dataset
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
