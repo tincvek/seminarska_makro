@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber seminarska_AI_RR_ZDA_UREJENA"] 0 "seminarska_AI_RR_ZDA_UREJENA.bcf" "seminarska_AI_RR_ZDA_UREJENA.bbl" "seminarska_AI_RR_ZDA_UREJENA" 1792662402.33425 -1
-  "seminarska_AI_RR_ZDA_UREJENA.bcf" 1792662401 109347 ae36ef2e8e66227908d59a1ad9630db3 "pdflatex"
+["biber seminarska_AI_RR_ZDA_UREJENA"] 1792662775.11726 "seminarska_AI_RR_ZDA_UREJENA.bcf" "seminarska_AI_RR_ZDA_UREJENA.bbl" "seminarska_AI_RR_ZDA_UREJENA" 1792663321.4438 0
+  "seminarska_AI_RR_ZDA_UREJENA.bcf" 1792663320 109347 ae36ef2e8e66227908d59a1ad9630db3 "pdflatex"
   "viri.bib" 1792661294 2076 b757411595c66c06c472716018b85312 ""
   (generated)
   "seminarska_AI_RR_ZDA_UREJENA.bbl"
   "seminarska_AI_RR_ZDA_UREJENA.blg"
   (rewritten before read)
-["pdflatex"] 1792662398.44909 "c:/Users/tincv/Desktop/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" "seminarska_AI_RR_ZDA_UREJENA.pdf" "seminarska_AI_RR_ZDA_UREJENA" 1792662402.3356 0
+["pdflatex"] 1792663317.5766 "c:/Users/tincv/Desktop/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" "seminarska_AI_RR_ZDA_UREJENA.pdf" "seminarska_AI_RR_ZDA_UREJENA" 1792663321.44513 0
   "C:/Users/tincv/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1792491853 83537 02a664bae19768fff9f97d0ded668270 ""
   "C:/Users/tincv/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762802549 24225047 e6f6ed460e79bd1f37c8a5011fbc5f2c ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -260,15 +260,15 @@
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/tincv/Desktop/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" 1792662397 39335 5532bc60b4ab3aafb65218ce3e2d764f ""
+  "c:/Users/tincv/Desktop/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" 1792663316 41022 8acec94db3206a225b680d9f9526af28 ""
   "podatki_rnd_usa.csv" 1792660119 203 67afe100694bbec68644b9d198b209b7 ""
   "podatki_tfp_usa.csv" 1792660119 179 323c8afc1253f72315e490ef5dc05c3b ""
-  "seminarska_AI_RR_ZDA_UREJENA.aux" 1792662401 8078 d69a0eabb7ce1c6052656cb270c4f0e2 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.bbl" 1792661299 10930 c2ecddbf2f8f9d862706e8c2f946ea33 "biber seminarska_AI_RR_ZDA_UREJENA"
-  "seminarska_AI_RR_ZDA_UREJENA.out" 1792662401 6032 8039a4fad12738d6d8207a2a1b0010a8 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.run.xml" 1792662401 2473 c1aba07fe40b65c958fe45d331971bd5 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.tex" 1792662397 39335 5532bc60b4ab3aafb65218ce3e2d764f ""
-  "seminarska_AI_RR_ZDA_UREJENA.toc" 1792662401 2639 5d4809c2d17c98033be0147003ceff36 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.aux" 1792663320 8363 7130674519299c7da4e4504f63c64a9e "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.bbl" 1792662778 10930 c2ecddbf2f8f9d862706e8c2f946ea33 "biber seminarska_AI_RR_ZDA_UREJENA"
+  "seminarska_AI_RR_ZDA_UREJENA.out" 1792663320 6032 8039a4fad12738d6d8207a2a1b0010a8 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.run.xml" 1792663320 2473 c1aba07fe40b65c958fe45d331971bd5 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.tex" 1792663316 41022 8acec94db3206a225b680d9f9526af28 ""
+  "seminarska_AI_RR_ZDA_UREJENA.toc" 1792663320 2639 c882856003e5a7ab65841b63bf879992 "pdflatex"
   (generated)
   "seminarska_AI_RR_ZDA_UREJENA.aux"
   "seminarska_AI_RR_ZDA_UREJENA.bcf"
