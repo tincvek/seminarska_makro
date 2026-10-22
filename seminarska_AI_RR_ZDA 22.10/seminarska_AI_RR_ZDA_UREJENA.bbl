@@ -141,13 +141,11 @@
       \strng{authorfullhashraw}{c7e879884ccccc363bdd9515e14ef18b}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Zapiski predavanj pri makroekonomiji}
       \field{title}{Teorija rasti}
-      \field{year}{n.d.}
     \endentry
     \entry{romer1986}{article}{}{}
       \name{author}{1}{}{%

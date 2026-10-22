@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  22 OCT 2026 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.22)  22 OCT 2026 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -998,11 +998,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 PGFPlots: reading {podatki_rnd_usa.csv}
  [6{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] [7] [8]
 PGFPlots: reading {podatki_tfp_usa.csv}
- [9{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [10] [11{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] [12] [13] [14] [15] [16] [17]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 410.
+ [9{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [10{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] [11] [12] [13] [14] [15] [16]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 408.
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [18] (seminarska_AI_RR_ZDA_UREJENA.aux)
+) [17] (seminarska_AI_RR_ZDA_UREJENA.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
@@ -1014,17 +1014,17 @@ Package logreq Info: Writing requests to 'seminarska_AI_RR_ZDA_UREJENA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42407 strings out of 467501
- 955653 string characters out of 5418652
- 1863353 words of memory out of 5000000
+ 42406 strings out of 467501
+ 955646 string characters out of 5418652
+ 1866353 words of memory out of 5000000
  70972 multiletter control sequences out of 15000+600000
  691406 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,11n,118p,1327b,2024s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (18 pages, 304667 bytes).
+Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (17 pages, 303714 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
+ 347 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
  229 words of extra memory for PDF output out of 10000 (max. 10000000)
 

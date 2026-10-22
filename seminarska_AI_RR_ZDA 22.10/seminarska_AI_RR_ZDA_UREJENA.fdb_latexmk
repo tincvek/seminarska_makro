@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber seminarska_AI_RR_ZDA_UREJENA"] 1792660475.19748 "seminarska_AI_RR_ZDA_UREJENA.bcf" "seminarska_AI_RR_ZDA_UREJENA.bbl" "seminarska_AI_RR_ZDA_UREJENA" 1792660484.56121 0
-  "seminarska_AI_RR_ZDA_UREJENA.bcf" 1792660484 110194 75df14718ff9ce3e6049185247970fa9 "pdflatex"
-  "viri.bib" 1792660460 2099 66cbd455dca07bc381051df51877cf34 ""
+["biber seminarska_AI_RR_ZDA_UREJENA"] 1792661495.2379 "seminarska_AI_RR_ZDA_UREJENA.bcf" "seminarska_AI_RR_ZDA_UREJENA.bbl" "seminarska_AI_RR_ZDA_UREJENA" 1792661504.53842 0
+  "seminarska_AI_RR_ZDA_UREJENA.bcf" 1792661504 110194 75df14718ff9ce3e6049185247970fa9 "pdflatex"
+  "viri.bib" 1792661485 2076 b757411595c66c06c472716018b85312 ""
   (generated)
   "seminarska_AI_RR_ZDA_UREJENA.bbl"
   "seminarska_AI_RR_ZDA_UREJENA.blg"
   (rewritten before read)
-["pdflatex"] 1792660482.32778 "c:/Users/mr88618/OneDrive - Univerza v Ljubljani/FAKS/makro/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" "seminarska_AI_RR_ZDA_UREJENA.pdf" "seminarska_AI_RR_ZDA_UREJENA" 1792660484.56248 0
+["pdflatex"] 1792661502.31699 "c:/Users/mr88618/OneDrive - Univerza v Ljubljani/FAKS/makro/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" "seminarska_AI_RR_ZDA_UREJENA.pdf" "seminarska_AI_RR_ZDA_UREJENA" 1792661504.5399 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -248,15 +248,15 @@
   "C:/Users/mr88618/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/mr88618/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/mr88618/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
-  "c:/Users/mr88618/OneDrive - Univerza v Ljubljani/FAKS/makro/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" 1792660460 38755 688b0ea73bd3fb283ddc0a33261cdf7a ""
+  "c:/Users/mr88618/OneDrive - Univerza v Ljubljani/FAKS/makro/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" 1792661485 38690 a9403f5bc39dece47e3bbf705714df5d ""
   "podatki_rnd_usa.csv" 1792660460 203 67afe100694bbec68644b9d198b209b7 ""
   "podatki_tfp_usa.csv" 1792660460 179 323c8afc1253f72315e490ef5dc05c3b ""
-  "seminarska_AI_RR_ZDA_UREJENA.aux" 1792660484 8168 c74bab7b09b2080917347f96c4f9d426 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.bbl" 1792660477 12038 e407d6f3bebcfe3e7549a6a73564c305 "biber seminarska_AI_RR_ZDA_UREJENA"
-  "seminarska_AI_RR_ZDA_UREJENA.out" 1792660484 5971 5decc658e91f0e917d61b836243f23a0 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.run.xml" 1792660484 2473 c1aba07fe40b65c958fe45d331971bd5 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.tex" 1792660460 38755 688b0ea73bd3fb283ddc0a33261cdf7a ""
-  "seminarska_AI_RR_ZDA_UREJENA.toc" 1792660484 2628 2f7a934245b006ffcb21b0682f06cfab "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.aux" 1792661504 8168 2e538774d332c15470f33658df3c518e "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.bbl" 1792661497 11977 64cfcf25b896dfe0dd1c0f50fbf89f28 "biber seminarska_AI_RR_ZDA_UREJENA"
+  "seminarska_AI_RR_ZDA_UREJENA.out" 1792661504 5971 5decc658e91f0e917d61b836243f23a0 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.run.xml" 1792661504 2473 c1aba07fe40b65c958fe45d331971bd5 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.tex" 1792661485 38690 a9403f5bc39dece47e3bbf705714df5d ""
+  "seminarska_AI_RR_ZDA_UREJENA.toc" 1792661504 2628 99dc723ec3cb8dcfd0e7c0a5cecf46cc "pdflatex"
   (generated)
   "seminarska_AI_RR_ZDA_UREJENA.aux"
   "seminarska_AI_RR_ZDA_UREJENA.bcf"
