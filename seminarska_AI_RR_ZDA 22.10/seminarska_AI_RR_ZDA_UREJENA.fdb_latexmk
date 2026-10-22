@@ -1,18 +1,19 @@
 # Fdb version 4
-["biber seminarska_AI_RR_ZDA_UREJENA"] 1792661295.94267 "seminarska_AI_RR_ZDA_UREJENA.bcf" "seminarska_AI_RR_ZDA_UREJENA.bbl" "seminarska_AI_RR_ZDA_UREJENA" 1792661307.40567 0
-  "seminarska_AI_RR_ZDA_UREJENA.bcf" 1792661306 109347 ae36ef2e8e66227908d59a1ad9630db3 "pdflatex"
+["biber seminarska_AI_RR_ZDA_UREJENA"] 0 "seminarska_AI_RR_ZDA_UREJENA.bcf" "seminarska_AI_RR_ZDA_UREJENA.bbl" "seminarska_AI_RR_ZDA_UREJENA" 1792662402.33425 -1
+  "seminarska_AI_RR_ZDA_UREJENA.bcf" 1792662401 109347 ae36ef2e8e66227908d59a1ad9630db3 "pdflatex"
   "viri.bib" 1792661294 2076 b757411595c66c06c472716018b85312 ""
   (generated)
   "seminarska_AI_RR_ZDA_UREJENA.bbl"
   "seminarska_AI_RR_ZDA_UREJENA.blg"
   (rewritten before read)
-["pdflatex"] 1792661303.58222 "c:/Users/tincv/Desktop/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" "seminarska_AI_RR_ZDA_UREJENA.pdf" "seminarska_AI_RR_ZDA_UREJENA" 1792661307.40709 0
+["pdflatex"] 1792662398.44909 "c:/Users/tincv/Desktop/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" "seminarska_AI_RR_ZDA_UREJENA.pdf" "seminarska_AI_RR_ZDA_UREJENA" 1792662402.3356 0
   "C:/Users/tincv/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1792491853 83537 02a664bae19768fff9f97d0ded668270 ""
   "C:/Users/tincv/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762802549 24225047 e6f6ed460e79bd1f37c8a5011fbc5f2c ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
+  "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc" 1256929440 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1233951854 928 2dc8d444221b7a635bb58038579b861a ""
@@ -44,6 +45,7 @@
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr6.tfm" 1256929440 11836 e3b6ce3e601aec94f64a536e7f4224d5 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr7.tfm" 1256929440 11852 5a9022f105fd1ee2797df861e79ae9a0 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr8.tfm" 1256929440 11864 309fd7f43e4a0ba39f6f7644d76e8edf ""
+  "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ts1-lmr12.tfm" 1256929440 1596 1d4548788e389ded56d0b01b28377882 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb" 1256929440 121021 836464b5fe0c782d94085eb083550ccc ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb" 1256929440 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb" 1256929440 116427 4909e80035dae5d5a4ec2b5ddd9649dd ""
@@ -237,6 +239,7 @@
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/lm/ot1lmr.fd" 1430474546 1882 28c08db1407ebff35a658fd141753d16 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmr.fd" 1430474546 1867 996fe743d88a01aca041ed22cc10e1bb ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmtt.fd" 1430474546 2682 555da1faa2e266801e4b221d01a42cb5 ""
+  "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/lm/ts1lmr.fd" 1430474546 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.def" 1280941015 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.sty" 1280941015 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty" 1673775190 1090 bae35ef70b3168089ef166db3e66f5b2 ""
@@ -257,15 +260,15 @@
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/tincv/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/tincv/Desktop/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" 1792661209 38690 a9403f5bc39dece47e3bbf705714df5d ""
+  "c:/Users/tincv/Desktop/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" 1792662397 39335 5532bc60b4ab3aafb65218ce3e2d764f ""
   "podatki_rnd_usa.csv" 1792660119 203 67afe100694bbec68644b9d198b209b7 ""
   "podatki_tfp_usa.csv" 1792660119 179 323c8afc1253f72315e490ef5dc05c3b ""
-  "seminarska_AI_RR_ZDA_UREJENA.aux" 1792661306 8067 aeb43086359770fec112ad733324c3a8 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.aux" 1792662401 8078 d69a0eabb7ce1c6052656cb270c4f0e2 "pdflatex"
   "seminarska_AI_RR_ZDA_UREJENA.bbl" 1792661299 10930 c2ecddbf2f8f9d862706e8c2f946ea33 "biber seminarska_AI_RR_ZDA_UREJENA"
-  "seminarska_AI_RR_ZDA_UREJENA.out" 1792661306 5971 5decc658e91f0e917d61b836243f23a0 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.run.xml" 1792661306 2473 c1aba07fe40b65c958fe45d331971bd5 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.tex" 1792661209 38690 a9403f5bc39dece47e3bbf705714df5d ""
-  "seminarska_AI_RR_ZDA_UREJENA.toc" 1792661306 2628 99dc723ec3cb8dcfd0e7c0a5cecf46cc "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.out" 1792662401 6032 8039a4fad12738d6d8207a2a1b0010a8 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.run.xml" 1792662401 2473 c1aba07fe40b65c958fe45d331971bd5 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.tex" 1792662397 39335 5532bc60b4ab3aafb65218ce3e2d764f ""
+  "seminarska_AI_RR_ZDA_UREJENA.toc" 1792662401 2639 5d4809c2d17c98033be0147003ceff36 "pdflatex"
   (generated)
   "seminarska_AI_RR_ZDA_UREJENA.aux"
   "seminarska_AI_RR_ZDA_UREJENA.bcf"

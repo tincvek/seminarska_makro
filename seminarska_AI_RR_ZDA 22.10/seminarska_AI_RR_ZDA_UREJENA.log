@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.10)  22 OCT 2026 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.10)  22 OCT 2026 11:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -995,37 +995,46 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write6
 \openout6 = `seminarska_AI_RR_ZDA_UREJENA.toc'.
 
- [2] [3] [4] [5]
+ [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[4] [5]
 PGFPlots: reading {podatki_rnd_usa.csv}
  [6{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] [7] [8]
 PGFPlots: reading {podatki_tfp_usa.csv}
- [9{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [10{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] [11] [12] [13] [14] [15] [16]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 408.
+ [9{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [10{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}] [11] [12] [13] [14]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 391.
+ (C:\Users\tincv\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [15{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [16] [17]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 410.
  (C:\Users\tincv\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [17] (seminarska_AI_RR_ZDA_UREJENA.aux)
+) [18] (seminarska_AI_RR_ZDA_UREJENA.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `seminarska_AI_RR_ZDA_UREJENA.out' has not changed.
-(rerunfilecheck)             Checksum: 5DECC658E91F0E917D61B836243F23A0;5971.
+(rerunfilecheck)             Checksum: 8039A4FAD12738D6D8207A2A1B0010A8;6032.
 Package logreq Info: Writing requests to 'seminarska_AI_RR_ZDA_UREJENA.run.xml'.
 \openout1 = `seminarska_AI_RR_ZDA_UREJENA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42007 strings out of 474486
- 952892 string characters out of 5743754
- 1945542 words of memory out of 5000000
- 63599 multiletter control sequences out of 15000+600000
- 633803 words of font info for 90 fonts, out of 8000000 for 9000
+ 42045 strings out of 474486
+ 953871 string characters out of 5743754
+ 1944542 words of memory out of 5000000
+ 63631 multiletter control sequences out of 15000+600000
+ 634178 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,107p,1242b,2027s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (17 pages, 303779 bytes).
+Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (18 pages, 306162 bytes).
 PDF statistics:
- 347 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
  229 words of extra memory for PDF output out of 10000 (max. 10000000)
 
