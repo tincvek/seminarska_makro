@@ -1,0 +1,412 @@
+\documentclass[12pt,a4paper]{article}
+
+% -------------------------------------------------
+% OSNOVNE NASTAVITVE
+% -------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{csquotes}
+
+% Grafi neposredno iz CSV
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+% Literatura
+\usepackage[
+    backend=biber,
+    style=authoryear,
+    sorting=nyt
+]{biblatex}
+\addbibresource{viri.bib}
+
+% -------------------------------------------------
+% PODATKI O NALOGI
+% -------------------------------------------------
+\title{\textbf{Umetna inteligenca kot vir raziskav in razvoja ter dolgoročne gospodarske rasti:\\
+primer ZDA v obdobju 2010--2025}}
+\author{
+Andraž Ajdovec \and Tin Cvek \and Jan Hrovat \and Miha Ručigaj
+}
+\date{oktober, 2026}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\vfill
+\begin{center}
+Predmet: Makroekonomija\\
+Seminarska naloga\\
+Univerza / fakulteta: \textit{Fakulteta za matematiko in fiziko}\\
+Mentor: \textit{Jan Grobovšek}
+\end{center}
+\vfill
+
+\newpage
+\tableofcontents
+\newpage
+
+% =================================================
+% DELOVNI OSNUTEK
+% =================================================
+% Besedilo temelji na profesorjevih zapiskih in uradnih virih. Pred oddajo ga
+% skupina vsebinsko preveri, poenoti slog in dopolni manjkajoči graf UI-patentov.
+
+% =================================================
+\section{Uvod}
+
+\subsection{Širši okvir in pomen problematike}
+Dolgoročna gospodarska rast je eno osrednjih vprašanj makroekonomije, saj že majhne razlike v povprečni letni stopnji rasti skozi daljše obdobje vodijo do velikih razlik v ravni dohodka in življenjskem standardu. Pri razlagi dolgoročne rasti je pomembno razlikovati med povečevanjem količine proizvodnih dejavnikov, kot sta delo in kapital, ter rastjo njihove produktivnosti. Ker ima dodatno kopičenje fizičnega kapitala padajoče mejne donose, samo povečevanje kapitala ne more trajno zagotavljati visoke rasti proizvodnje na prebivalca. Zato imajo pomembno vlogo tehnološki napredek, inovacije in rast skupne faktorske produktivnosti.
+
+Raziskave in razvoj so eden glavnih načinov ustvarjanja novega tehnološkega znanja. Z vlaganjem v R\&R podjetja in javne institucije razvijajo nove proizvode, proizvodne postopke in tehnologije, ki lahko povečajo učinkovitost uporabe dela in kapitala. Umetna inteligenca lahko ta proces dodatno pospeši, saj omogoča hitrejšo analizo velikih količin podatkov, iskanje vzorcev, programiranje, simulacije ter hitrejše preizkušanje različnih rešitev. Če raziskovalci z enako količino časa in sredstev ustvarijo več uporabnega znanja, se poveča produktivnost raziskovalnega procesa.
+
+Takšen mehanizem je posebej pomemben v okviru endogene teorije gospodarske rasti, kjer tehnološki napredek ni zgolj zunanji dejavnik, temveč rezultat namernih vlaganj v znanje, raziskave in inovacije. Če umetna inteligenca zmanjša stroške raziskovanja ali poveča uspešnost R\&R, lahko prispeva k hitrejšemu nastajanju novih idej, višji skupni faktorski produktivnosti in dolgoročno višji gospodarski rasti. Učinek pa ni nujno takojšen, saj nove tehnologije pogosto zahtevajo dodatne investicije v računalniško infrastrukturo, podatke, organizacijske spremembe in znanje zaposlenih. Zato se lahko njihov vpliv na agregatno produktivnost pokaže šele z določenim časovnim zamikom.
+
+\subsection{Predstavitev izbranega primera: ZDA v obdobju 2010--2025}
+Za empirično analizo smo izbrali Združene države Amerike v obdobju 2010–2025. ZDA so za takšno analizo posebej primerne, saj sodijo med vodilna svetovna gospodarstva na področju raziskav, razvoja in umetne inteligence. V državi delujejo številna velika tehnološka podjetja, univerze in raziskovalne institucije, hkrati pa je obseg zasebnega in javnega financiranja R\&R zelo velik. Pomembna prednost ameriškega primera je tudi dobra dostopnost podatkov o raziskovalnih izdatkih, patentni aktivnosti in produktivnosti.
+
+Izbrano obdobje zajema več pomembnih faz razvoja umetne inteligence: hiter razvoj strojnega učenja in globokih nevronskih mrež, širjenje računalništva v oblaku in velikih podatkov ter poznejši razmah generativne umetne inteligence. Tako lahko primerjamo zgodnejšo fazo razvoja UI z obdobjem, ko je ta postala širše uporabljeno raziskovalno in poslovno orodje.
+
+V analizi spremljamo gibanje izdatkov za R\&R, federalna vlaganja v umetno inteligenco, ustvarjanje novega znanja prek UI-patentov ter razvoj skupne faktorske produktivnosti. Zanima nas predvsem, ali rast raziskovalnih inputov in širjenje uporabe umetne inteligence spremljata tudi večjo inovacijsko aktivnost in višjo produktivnost ter ali se ti učinki pojavijo sočasno ali z zamikom.
+
+\subsection{Raziskovalno vprašanje}
+\textbf{Ali rast vlaganj v umetno inteligenco in širjenje inovacij, povezanih z umetno inteligenco, v ZDA v obdobju 2010--2025 spremljata povečano ustvarjanje novega znanja in rast skupne faktorske produktivnosti ter kako lahko to povezavo pojasnimo z modelom endogene gospodarske rasti?}
+
+Pri tem ne poskušamo dokazati stroge vzročnosti med razvojem umetne inteligence in rastjo produktivnosti, temveč preverjamo, ali so opazovani časovni trendi skladni z mehanizmom, ki ga napoveduje endogena teorija gospodarske rasti.
+
+\subsection{Struktura naloge}
+V drugem poglavju predstavimo uporabljene podatke in analiziramo razvoj izdatkov za R\&R, federalnih vlaganj v umetno inteligenco, UI-patentne aktivnosti ter skupne faktorske produktivnosti v ZDA. V tretjem poglavju predstavimo teoretični okvir gospodarske rasti, pri čemer se osredotočimo na Solow--Swanov model, računovodstvo gospodarske rasti in teorijo endogene rasti. V četrtem poglavju teoretične napovedi povežemo z opaženimi podatki ter ocenimo, ali razvoj umetne inteligence spremlja večje ustvarjanje znanja in rast produktivnosti. V petem poglavju podamo kritično presojo ugotovitev, izpostavimo omejitve analize in odgovorimo na raziskovalno vprašanje.
+
+
+\section{Podatkovna analiza}
+
+V tem poglavju s podatki za ZDA v obdobju 2010--2025 predstavimo glavne empirične trende, povezane z raziskavami in razvojem, umetno inteligenco, ustvarjanjem novega tehnološkega znanja in skupno faktorsko produktivnostjo. Namen podatkovne analize je ugotoviti, ali se je v obdobju hitrega razvoja umetne inteligence povečal obseg virov, namenjenih raziskovanju, ali temu sledi več merljive inovacijske aktivnosti in ali je podoben vzorec mogoče opaziti tudi pri agregatni produktivnosti.
+
+\subsection{Viri podatkov in izbor spremenljivk}
+
+Za analizo uporabimo štiri skupine kazalnikov. Širši obseg raziskovalne dejavnosti merimo s skupnimi izdatki ZDA za R\&R, ki jih objavlja National Center for Science and Engineering Statistics (NCSES). Bolj neposredno usmerjenost raziskovalnih sredstev v umetno inteligenco spremljamo s podatki Networking and Information Technology Research and Development programa (NITRD) o federalnih nedobrambnih izdatkih za UI R\&R. Kot približek ustvarjanju novega tehnološkega znanja uporabimo patentne dokumente, povezane z umetno inteligenco, iz podatkovnega niza USPTO Artificial Intelligence Patent Dataset. Končni makroekonomski kazalnik predstavlja rast skupne faktorske produktivnosti v zasebnem ne-kmetijskem poslovnem sektorju, ki jo objavlja U.S. Bureau of Labor Statistics (BLS).
+
+Kazalniki tako predstavljajo različne stopnje istega procesa: izdatki za R\&R merijo raziskovalne inpute, patentna aktivnost predstavlja približek nastajanju novega tehnološkega znanja, TFP pa meri spremembe učinkovitosti uporabe proizvodnih dejavnikov na ravni gospodarstva.
+
+\begin{table}[H]
+\centering
+\caption{Kazalniki, uporabljeni v empirični analizi}
+\small
+\begin{tabularx}{\textwidth}{
+>{\raggedright\arraybackslash}p{3.0cm}
+>{\raggedright\arraybackslash}X
+>{\centering\arraybackslash}p{2.4cm}
+>{\centering\arraybackslash}p{2.2cm}}
+\toprule
+\textbf{Koncept} & \textbf{Kazalnik} & \textbf{Obdobje} & \textbf{Vir} \\
+\midrule
+Splošna vlaganja v R\&R & Izdatki ZDA za R\&R & 2010--2023 & NCSES/NSF \\
+UI-specifični R\&R & Federalni nedobrambni izdatki za UI R\&R & 2019--2025 & NITRD \\
+Novo tehnološko znanje & UI-patenti oziroma patentni dokumenti & 2010--2023 & USPTO \\
+Produktivnost & Rast TFP, zasebni ne-kmetijski poslovni sektor & 2010--2025 & BLS \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Metoda analize}
+
+Empirični del temelji na opisni analizi časovnih vrst. Za posamezne kazalnike najprej prikažemo njihovo gibanje skozi čas in nato primerjamo razvoj med obdobji 2010--2014, 2015--2019 in 2020--2025. Ker vse podatkovne serije ne pokrivajo celotnega obdobja, pri posameznem kazalniku uporabljamo samo leta, za katera so na voljo primerljivi uradni podatki, manjkajočih vrednosti pa ne interpoliramo.
+
+Pri denarnih spremenljivkah je pomembno razlikovati med nominalnimi in realnimi vrednostmi. Skupni ameriški izdatki za R\&R so v osnovnem grafu izraženi v tekočih dolarjih, zato njihove rasti ne moremo v celoti pripisati povečanju realnega obsega raziskovalne dejavnosti. Pri interpretaciji zato upoštevamo tudi realne stopnje rasti in spremembe deleža izdatkov za R\&R v BDP.
+
+Analizo izvajamo zaporedno. Najprej preverimo, kako so se spreminjali viri za R\&R in raziskave na področju umetne inteligence. Nato analiziramo patentno aktivnost kot približek ustvarjanju novega znanja in nazadnje gibanje TFP. Pri primerjavi upoštevamo, da se lahko učinki nove tehnologije na agregatno produktivnost pojavijo z zamikom, saj njena uvedba zahteva dodatne investicije, organizacijske spremembe in učenje.
+
+Takšna analiza omogoča ugotavljanje časovnega zaporedja in skladnosti podatkov s teoretičnim mehanizmom, ne omogoča pa dokazovanja vzročnosti. Na produktivnost vplivajo številni drugi dejavniki, hkrati pa lahko tudi višja produktivnost spodbuja dodatna vlaganja v R\&R. Rezultate zato razumemo kot opisno preverjanje povezave med kazalniki in ne kot oceno čistega vzročnega učinka umetne inteligence na TFP.
+
+\subsection{Razvoj izdatkov za raziskave in razvoj}
+
+NCSES poroča o skupnih ameriških izdatkih za R\&R po sektorjih. Za analizo uporabimo uradno časovno serijo za obdobje 2010--2023 \parencite{ncses2025}.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.94\textwidth,
+    height=7cm,
+    xlabel={Leto},
+    ylabel={Izdatki za R\&R (mio USD)},
+    grid=major,
+    xtick=data,
+    xticklabel={\pgfmathprintnumber[fixed,precision=0,1000 sep={}]{\tick}},
+    xticklabel style={rotate=45,anchor=east},
+    scaled y ticks=false,
+    tick label style={/pgf/number format/fixed},
+    y tick label style={/pgf/number format/1000 sep={\,}}
+]
+\addplot+[mark=*] table[
+    x=leto,
+    y=skupaj_mio_usd,
+    col sep=comma
+]{podatki_rnd_usa.csv};
+\end{axis}
+\end{tikzpicture}
+\caption{Skupni izdatki za R\&R v ZDA, 2010--2023}
+\caption*{\footnotesize Vir: NCSES/NSF; lastna priprava.}
+\label{fig:rnd}
+\end{figure}
+
+Podatki kažejo zelo izrazito povečanje nominalnih ameriških izdatkov za R\&R. Skupni izdatki vseh izvajalskih sektorjev so se povečali s približno 406,6 milijarde USD leta 2010 na približno 939,6 milijarde USD leta 2023 \parencite{ncses2025}. To pomeni več kot podvojitev nominalne vrednosti v trinajstih letih. Ker gre za tekoče dolarje, del rasti odraža rast cen, zato nominalnega povečanja ne smemo enačiti z realnim povečanjem količine raziskovalne dejavnosti.
+
+Tudi realni podatki potrjujejo, da ne gre zgolj za inflacijski učinek. NCSES za obdobje 2013--2023 poroča približno 4,8-odstotno povprečno letno realno rast skupnih izdatkov za R\&R, merjeno v konstantnih dolarjih. Hkrati se je povečala intenzivnost R\&R: delež izdatkov za R\&R v BDP je od leta 2019 nad 3~\%, leta 2023 pa je znašal približno 3,39~\% \parencite{ncses2025}. Raziskovalna dejavnost je torej v tem obdobju rasla hitreje kot gospodarstvo kot celota.
+
+Za naše raziskovalno vprašanje je pomembno tudi, da je glavnino ameriškega R\&R izvajal in financiral poslovni sektor. To je skladno z endogeno teorijo rasti, kjer podjetja vlagajo v ustvarjanje novega znanja zaradi pričakovanih prihodnjih donosov. Sam trend R\&R še ne pove, kolikšen del dodatnega raziskovanja je povezan neposredno z umetno inteligenco, kaže pa, da se je v analiziranem obdobju širša baza virov za inoviranje močno povečala.
+
+\subsection{Federalna vlaganja v UI R\&R}
+
+Bolj neposreden kazalnik raziskovalne dejavnosti na področju umetne inteligence predstavljajo federalna nedobrambna vlaganja v UI R\&R, ki jih objavlja NITRD \parencite{nitrd2025}. Pri teh podatkih je pomembno razlikovati med dejansko porabo, odobrenimi sredstvi in proračunskimi zahtevami.
+
+NITRD razlikuje med postavko \emph{Core UI} in širšim seštevkom UI R\&R. Core UI zajema raziskave, pri katerih je umetna inteligenca neposredno osrednji predmet, na primer strojno učenje, računalniški vid, jezikovne algoritme ali arhitekture za nevronske mreže. Širši skupni znesek vključuje tudi raziskovalne aktivnosti, ki so evidentirane v drugih programskih področjih, vendar imajo pomembno UI-komponento \parencite{nitrd2025}.
+
+\begin{table}[H]
+\centering
+\caption{Federalni UI R\&R -- izbrana leta}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Fiskalno leto} & \textbf{Core UI (mio USD)} & \textbf{Skupaj (mio USD)} \\
+\midrule
+FY2023 dejansko & 1914,2 & 3121,9 \\
+FY2024 odobreno & 1789,0 & 2977,5 \\
+FY2025 zahteva & 1954,5 & 3316,1 \\
+\bottomrule
+\end{tabular}
+\caption*{\footnotesize Vir: NITRD; lastna priprava.}
+\label{tab:UI-rd}
+\end{table}
+
+V FY2023 je dejanska nedobrambna federalna poraba za UI R\&R znašala približno 3,122 milijarde USD, od tega 1,914 milijarde USD za Core UI. Za FY2024 je bilo odobrenih približno 2,978 milijarde USD. Zahteva za FY2025 je znašala približno 3,316 milijarde USD, od tega 1,955 milijarde USD za Core UI. Če bi bila zahteva v celoti realizirana, bi to pomenilo približno 11,4-odstotno povečanje skupnega zneska glede na odobreno raven FY2024.
+
+Podatke za FY2025 moramo interpretirati previdno, saj gre za proračunsko zahtevo in ne za dejansko realizirano porabo. Kljub temu podatki od FY2019 naprej kažejo, da je umetna inteligenca postajala vse pomembnejše področje federalnega financiranja raziskav. To je skladno s širšim trendom povečevanja virov, namenjenih razvoju in uporabi UI.
+
+\subsection{Ustvarjanje novega znanja: UI-patenti}
+
+USPTO Artificial Intelligence Patent Dataset (AIPD 2023) omogoča identifikacijo patentnih dokumentov, povezanih z umetno inteligenco, do leta 2023 \parencite{uspto2025aipd}. Posodobljeni podatkovni niz zajema 15,4 milijona patentnih dokumentov, objavljenih do leta 2023, in jih razvršča glede na verjetnost, da vsebujejo tehnologijo umetne inteligence \parencite{uspto2025aipd}.
+
+Patentni dokumenti niso popolna mera inovacij. Vsa nova znanja niso patentirana, podjetja lahko svoje inovacije varujejo s poslovnimi skrivnostmi, prav tako pa se posamezni patenti močno razlikujejo po tehnološkem in gospodarskem pomenu. Število patentnih dokumentov zato razumemo predvsem kot približek intenzivnosti formalizirane izumiteljske dejavnosti.
+
+Posodobitev AIPD kaže izrazit dolgoročni porast patentnih dokumentov, ki jih model prepozna kot povezane z UI. Leta 2023 je bilo pri 50-odstotnem klasifikacijskem pragu prepoznanih že nekaj več kot 210.000 takšnih dokumentov \parencite{uspto2025aipd}. Takšen razvoj kaže na hitro širjenje UI med različnimi tehnološkimi področji in je skladen z rastjo raziskovalnih aktivnosti, ki smo jo opazili pri izdatkih za R\&R. Ker priloženi podatki ne vsebujejo enotno agregirane letne serije patentnih dokumentov, v nalogi ne prikazujemo letnega grafa, da ne bi ustvarili navidezne natančnosti.
+
+\subsection{Razvoj skupne faktorske produktivnosti}
+
+BLS definira TFP kot razmerje med indeksom realnega outputa in indeksom kombiniranih inputov dela in kapitala. Za leto 2025 BLS poroča 0,8-odstotno rast TFP v zasebnem ne-kmetijskem poslovnem sektorju \parencite{bls2026tfp}.
+
+Gibanje TFP je bistveno bolj volatilno kot gibanje izdatkov za R\&R. V obdobju 2010--2019 se letne stopnje rasti večinoma gibljejo blizu ničle oziroma okoli enega odstotka, z izrazitejšim pospeškom leta 2010. Pandemsko obdobje povzroči zelo velika nihanja: po padcu leta 2020 je leta 2021 sledil močan skok, nato pa padec leta 2022. V letih 2023 in 2024 se TFP ponovno poveča, leta 2025 pa BLS poroča 0,8-odstotno rast \parencite{bls2026tfp}.
+
+Povprečja po pod-obdobjih pokažejo, da je bila povprečna letna rast TFP približno 0,8~\% v letih 2010--2014, približno 0,64~\% v letih 2015--2019 in približno 1,0~\% v obdobju 2020--2025. Zadnje povprečje je treba interpretirati previdno, ker ga močno določajo izjemna pandemska nihanja. BLS tudi sam opozarja, da je produktivnost predvsem dolgoročen koncept in da kratkoročni šoki lahko močno zamaknejo ali popačijo letne stopnje rasti.
+
+Zanimivo je, da BLS za celotni poslovni cikel 2019--2025 ocenjuje približno 1,0-odstotno povprečno letno rast TFP, v prejšnjem ciklu 2007--2019 pa približno 0,6~\% \parencite{bls2026tfp}. To je skladno z možnostjo določenega pospeška produktivnosti v novejšem obdobju, vendar iz tega še ne moremo sklepati, da je vzrok umetna inteligenca. Sočasno so se spreminjali struktura dela, kapitalske investicije, dobavne verige, fiskalna politika in številni drugi dejavniki.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.94\textwidth,
+    height=7cm,
+    xlabel={Leto},
+    ylabel={Rast TFP (\%)},
+    grid=major,
+    xtick=data,
+    xticklabel={\pgfmathprintnumber[fixed,precision=0,1000 sep={}]{\tick}},
+    xticklabel style={rotate=45,anchor=east},
+    ymin=-2,
+    ymax=4.5
+]
+\addplot+[mark=*] table[
+    x=leto,
+    y=tfp_rast,
+    col sep=comma
+]{podatki_tfp_usa.csv};
+\addplot[dashed] coordinates {(2010,0) (2025,0)};
+\end{axis}
+\end{tikzpicture}
+\caption{Letna rast skupne faktorske produktivnosti v zasebnem ne-kmetijskem poslovnem sektorju ZDA, 2010--2025}
+\caption*{\footnotesize Vir: BLS; lastna priprava.}
+\label{fig:tfp}
+\end{figure}
+
+\subsection{Primerjava UI-kazalnikov, inovacij in TFP}
+
+Primerjava kazalnikov pokaže precej jasnejši trend pri raziskovalnih inputih in inovacijski aktivnosti kot pri agregatni produktivnosti. Skupni ameriški izdatki za R\&R so se v analiziranem obdobju močno povečali, po letu 2019 pa so večji pomen pridobila tudi federalna vlaganja v raziskave umetne inteligence. Hkrati patentni podatki kažejo izrazito povečanje UI-povezane izumiteljske aktivnosti.
+
+Prva dva koraka pričakovanega procesa sta zato v podatkih razmeroma jasno vidna: povečali so se viri, namenjeni raziskovanju, in povečala se je merljiva količina novega tehnološkega znanja. Pri TFP pa je povezava precej manj neposredna. Produktivnost ni rasla enakomerno z raziskovalnimi in inovacijskimi kazalniki, temveč jo zaznamujejo velika kratkoročna nihanja.
+
+Takšen rezultat ni nujno v nasprotju z mehanizmom, ki ga bomo predstavili v teoretičnem delu naloge. Če umetna inteligenca deluje kot splošnonamenska tehnologija, lahko povečanje investicij in inovacijske aktivnosti nastopi prej kot učinek na agregatno produktivnost. Podjetja morajo novo tehnologijo vključiti v svoje procese, prilagoditi organizacijo, investirati v infrastrukturo in podatke ter usposobiti zaposlene. Zato je mogoče pričakovati časovni zamik med rastjo UI-povezanih inputov in morebitnim učinkom na TFP.
+
+\begin{table}[H]
+\centering
+\caption{Primerjava glavnih kazalnikov po pod-obdobjih}
+\small
+\begin{tabularx}{\textwidth}{
+>{\raggedright\arraybackslash}X
+>{\centering\arraybackslash}X
+>{\centering\arraybackslash}X
+>{\centering\arraybackslash}X}
+\toprule
+ & \textbf{2010--2014} & \textbf{2015--2019} & \textbf{2020--2025} \\
+\midrule
+Nominalni CAGR R\&R & 4,0\% & 7,7\% & 9,5\% (2020--2023) \\
+Federalni UI R\&R & n.p. & začetek serije FY2019 & rast do večmilijardne ravni \\
+UI-patentni dokumenti & rast & hitrejša rast & zelo visoka raven do 2023 \\
+Povprečna rast TFP & 0,80\% & 0,64\% & 1,00\% \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Podatkovna analiza tako pokaže časovno zaporedje, ki je skladno z možnim mehanizmom vpliva UI na dolgoročno rast, ne omogoča pa sklepa, da je umetna inteligenca že povzročila rast agregatne produktivnosti. Za razlago tega zaporedja v naslednjem poglavju predstavimo teoretični okvir gospodarske rasti.
+
+\section{Teoretični okvir gospodarske rasti}
+
+\subsection{Viri dolgoročne gospodarske rasti}
+Dolgoročno rast lahko razlagamo z dvema širšima skupinama mehanizmov. Prvi poudarja akumulacijo proizvodnih faktorjev, predvsem fizičnega in človeškega kapitala, drugi pa rast skupne faktorske produktivnosti. Profesorjevi zapiski izrecno ločujejo med teorijami, ki rast pojasnjujejo z večjo količino proizvodnih faktorjev, in teorijami, ki poudarjajo TFP, torej tehnologijo, organizacijo in druge dejavnike, zaradi katerih enaka količina inputov ustvari več outputa \parencite{polanec_rast}.
+
+Fizični kapital vključuje stroje, opremo, infrastrukturo in druge proizvedene dobrine, ki se uporabljajo pri proizvodnji. Delo predstavlja količino delovnega inputa, človeški kapital pa znanje, izobrazbo, sposobnosti in izkušnje, ki so utelešene v delavcih. Tehnologija je drugačna od človeškega kapitala: v profesorjevih zapiskih je opisana kot ``matrica'' oziroma zapis, kako se določen proizvod proizvaja. Prav ta razlika je pomembna za inovacije, saj se lahko tehnološko znanje širi med podjetji in sektorji ter tako vpliva na produktivnost tudi zunaj podjetja, ki ga je ustvarilo.
+
+Splošno agregatno produkcijsko funkcijo lahko zapišemo kot
+\begin{equation}
+Y(t)=F\left[K(t),A(t)L(t)\right],
+\end{equation}
+kjer je $Y$ agregatna proizvodnja, $K$ fizični kapital, $L$ delo in $A$ raven tehnologije.
+
+\subsection{Solow--Swanov model}
+Solow--Swanov model je osnovni neoklasični model gospodarske rasti. V najpreprostejši različici ima gospodarstvo dva proizvodna faktorja, kapital $K$ in delo $L$, ter raven tehnologije $A$. Predpostavlja se ena homogena dobrina, ki se lahko potroši ali investira, zaprto gospodarstvo, v katerem so investicije enake varčevanju, eksogeno dana stopnja varčevanja $s$, konstantna stopnja amortizacije $\delta$, eksogena rast prebivalstva po stopnji $n$ in eksogena rast tehnologije po stopnji $x$ \parencite{polanec_rast}. Produkcijska funkcija ima konstantne donose obsega in padajoče mejne donose kapitala.
+
+V neoklasični specifikaciji tehnologija in delo vstopata multiplikativno kot $A(t)L(t)$. Produkt $AL$ imenujemo efektivno oziroma učinkovito delo. Rast $A$ pomeni, da je vsaka enota dela zaradi tehnološkega napredka učinkovitejša. Zato model analiziramo v spremenljivkah na enoto efektivnega dela. Kapital na enoto efektivnega dela je
+\begin{equation}
+k(t)=\frac{K(t)}{A(t)L(t)}.
+\end{equation}
+
+Dinamika kapitala na enoto efektivnega dela je
+\begin{equation}
+\dot{k}(t)=s f(k(t))-(n+x+\delta)k(t),
+\end{equation}
+kjer je $s$ stopnja varčevanja, $n$ stopnja rasti prebivalstva, $x$ stopnja tehnološkega napredka in $\delta$ stopnja amortizacije.
+
+V ustaljenem stanju velja
+\begin{equation}
+s f(k^*)=(n+x+\delta)k^*.
+\end{equation}
+
+Ustaljeno stanje je doseženo, ko se kapital na enoto efektivnega dela ne spreminja, torej ko so dejanske investicije $s f(k)$ enake nadomestitvenim investicijam $(n+x+\delta)k$. Če je dejanskih investicij več, $k$ raste; če jih je manj, $k$ pada. Povečanje stopnje varčevanja zato zviša ravnotežno raven kapitala in outputa na efektivno delo, vendar ne zviša trajne dolgoročne stopnje rasti outputa na delavca. Po prehodnem obdobju se gospodarstvo ustali v novem ravnotežju.
+
+Najpomembnejši rezultat za našo nalogo je, da je v ustaljenem stanju rast outputa na delavca enaka eksogeni stopnji tehnološkega napredka $x$. Solow--Swanov model tako dobro pokaže, zakaj je tehnologija potrebna za trajno rast življenjskega standarda, ne pojasni pa, od kod tehnološki napredek prihaja. Profesorjevi zapiski prav to izpostavljajo kot osrednjo omejitev modela: Solowov rezidual, ki predstavlja velik del gospodarske rasti, je v modelu dan od zunaj \parencite{polanec_rast}.
+
+\subsection{Računovodstvo gospodarske rasti in TFP}
+Računovodstvo gospodarske rasti je empirična metoda, s katero rast proizvodnje razdelimo na prispevke rasti merljivih inputov in preostanek, ki ga pripišemo skupni faktorski produktivnosti. Profesorjevi zapiski poudarjajo, da tehnologije ne moremo neposredno izmeriti, zato TFP ocenimo rezidualno: od rasti outputa odštejemo del, ki ga lahko pojasnimo z rastjo kapitala in dela \parencite{polanec_rast}. Pri Cobb--Douglasovi produkcijski funkciji dobimo
+\begin{equation}
+g_Y=g_A+\alpha g_K+(1-\alpha)g_L,
+\end{equation}
+zato je ocenjena rast TFP
+\begin{equation}
+g_A=g_Y-\alpha g_K-(1-\alpha)g_L.
+\end{equation}
+
+TFP zato ni ``čista'' mera tehnologije. V rezidual se lahko vključijo organizacijske izboljšave, učinkovitejša alokacija virov, ekonomije obsega, institucionalne spremembe in tudi napake pri merjenju inputov. Če denimo rast kakovosti dela zaradi izobrazbe ali izkušenj ni pravilno zajeta, bo del učinka napačno pripisan TFP. Podobno velja za kakovost kapitala in tehnološki napredek, utelešen v novi opremi. Zapiski opozarjajo tudi na problem vzročnosti: višja TFP lahko sama poveča donosnost kapitala in s tem spodbudi dodatne investicije, zato ni vedno smiselno strogo ločevati kapitala kot ``vzroka'' in TFP kot ločenega preostanka.
+
+V empiričnem delu zato TFP interpretiramo previdno. Uporabimo uradno serijo BLS za zasebni ne-kmetijski poslovni sektor, ki TFP izračuna kot razmerje med indeksom realnega outputa in indeksom kombiniranih inputov dela in kapitala \parencite{bls2026tfp}. S tem ohranimo enotno sektorsko definicijo skozi celotno analizo.
+
+\subsection{Endogena rast, raziskave in razvoj ter umetna inteligenca}
+Glavna pomanjkljivost Solow--Swanovega modela je, da dolgoročno rast tehnologije vzame kot eksogeno. Teorija endogene rasti zato poskuša pojasniti, zakaj se tehnologija in znanje razvijata. Profesorjevi zapiski nastanek te smeri povezujejo z nezadovoljstvom nad modeli, v katerih je dolgoročna rast določena zunaj modela. Romerjev pristop izpostavlja akumulacijo znanja, pozitivne eksternalije ter dejstvo, da lahko raziskovalna aktivnost posameznega podjetja poveča tudi širši družbeni fond znanja \parencite{polanec_rast,romer1986}.
+
+Pomembna lastnost znanja je, da je deloma nerivalno. Ko je nova ideja, algoritem ali proizvodni postopek enkrat odkrit, ga lahko ob ustreznih pogojih uporablja več gospodarskih subjektov hkrati. Prav zato lahko nastanejo prelivanja znanja: zasebni donos inovatorja je manjši od celotnega družbenega donosa. Profesorjevi zapiski pri R\&R poudarjajo, da so bile ocenjene družbene stopnje donosa na raziskave in razvoj višje od zasebnih, kar je skladno z obstojem pozitivnih eksternalij.
+
+V Romerjevem modelu iz leta 1990 podjetja vlagajo v R\&R, da bi razvila nove proizvode oziroma nove ``načrte'' proizvodnje. Patent začasno zaščiti rezultat raziskovanja in inovatorju omogoči monopolni dobiček. Pričakovani prihodnji dobički so zato spodbuda za današnje raziskovalne stroške: podjetje primerja strošek inovacije z diskontirano vrednostjo prihodnjih donosov \parencite{polanec_rast,romer1990}. Hkrati preteklo znanje olajša nadaljnje raziskovanje, kar je v zapiskih opisano kot učinek ``stati na ramenih velikanov''. Nasprotno pa večje število inovatorjev krepi konkurenco in zmanjšuje rente posameznega inovatorja. Dolgoročna rast je rezultat ravnotežja teh sil.
+
+Za našo temo lahko umetno inteligenco interpretiramo kot input v raziskovalni proces. Če UI raziskovalcem omogoči hitrejšo obdelavo literature in podatkov, avtomatizacijo rutinskih nalog, simuliranje rešitev ali učinkovitejše programiranje, se lahko ob isti količini dela in kapitala v R\&R ustvari več novega znanja. V jeziku endogene teorije rasti bi to pomenilo večjo produktivnost raziskovalnega sektorja. Patentna aktivnost je eden od možnih merljivih rezultatov tega procesa, čeprav ne zajema vseh inovacij.
+
+Posebej pomemben je koncept splošnonamenske tehnologije. Profesorjevi zapiski navajajo motor, elektriko in računalnik kot primere tehnologij s široko uporabo ter poudarjajo, da je njihova rastna pot lahko neenakomerna: najprej se pojavijo stroški učenja, namestitve in razvoja komplementarnih inputov, šele nato hitrejša rast \parencite{polanec_rast,bresnahan1995}. Umetna inteligenca ima podobne značilnosti široke uporabe v različnih dejavnostih, zato je smiselno pričakovati, da se učinek hitro rastočih UI-vlaganj na agregatno TFP pokaže z zamikom.
+
+Konceptualno povezavo lahko prikažemo kot
+\begin{equation}
+\begin{aligned}
+\text{UI} &\longrightarrow \text{večja produktivnost R\&R}
+\longrightarrow \text{več novega znanja}\\
+&\longrightarrow \text{višja TFP}
+\longrightarrow \text{višja dolgoročna rast}.
+\end{aligned}
+\end{equation}
+
+
+% =================================================
+
+Na podlagi tega teoretičnega okvira lahko podatke iz prejšnjega poglavja razumemo kot različne člene istega mehanizma: vlaganja v R\&R povečujejo raziskovalne inpute, nova znanja in inovacije predstavljajo rezultat raziskovalnega procesa, morebitni dolgoročni učinek pa naj bi se pokazal v višji produktivnosti. V naslednjem poglavju ta mehanizem neposredno povežemo z ugotovitvami za ZDA.
+
+\section{Uporaba modela in povezava s podatki}
+
+\subsection{R\&R in ustvarjanje novega znanja}
+
+Empirične ugotovitve lahko najprej povežemo z osnovnim mehanizmom endogene teorije rasti. V Romerjevem okviru podjetja vlagajo v R\&R, ker pričakujejo prihodnje donose iz novih proizvodov, postopkov in drugih oblik novega znanja. Močna rast širših ameriških izdatkov za R\&R zato pomeni povečanje virov, ki so na voljo za raziskovalni proces.
+
+Naslednji korak je pretvorba raziskovalnih inputov v novo znanje. Rast UI-patentne aktivnosti je skladna s tem, da se je povečala količina formaliziranih tehnoloških rezultatov, povezanih z umetno inteligenco. Patenti imajo v teoriji dvojno vlogo: inovatorju začasno omogočajo donos, hkrati pa z razkritjem znanja prispevajo k širjenju informacij in prihodnjim raziskavam. Zaradi takšnih prelivanj je lahko družbeni učinek raziskovanja večji od zasebnega učinka posameznega podjetja.
+
+\subsection{Umetna inteligenca in produktivnost raziskovalnega procesa}
+
+Za našo raziskovalno temo je ključno, da umetne inteligence ne obravnavamo le kot končni proizvod ali novo tehnologijo v proizvodnji, temveč tudi kot input v sam proces R\&R. Če UI omogoči hitrejšo obdelavo podatkov in literature, avtomatizacijo rutinskih nalog, simuliranje rešitev ali učinkovitejše programiranje, lahko raziskovalci z enako količino dela in kapitala ustvarijo več novega znanja.
+
+V jeziku endogene teorije rasti to pomeni večjo produktivnost raziskovalnega sektorja. Rast federalnega financiranja UI R\&R in širjenje UI-patentne aktivnosti sta zato skladna z možnostjo, da se je povečal tako obseg raziskovalnih inputov kot tudi potencial za učinkovitejše ustvarjanje idej. Iz agregatnih podatkov pa ne moremo ločeno izmeriti, kolikšen del rasti novega znanja izhaja prav iz večje produktivnosti raziskovanja in kolikšen iz večjega obsega vloženih sredstev.
+
+\subsection{Prenos novega znanja v TFP}
+
+Tretji korak je prenos novega znanja v produktivnost proizvodnega sektorja. Če UI izboljša tehnologijo proizvodnje ali poveča učinkovitost raziskovanja, bi se njen dolgoročni učinek moral odraziti v TFP. Toda podatki ne kažejo preprostega sočasnega premika: raziskovalni in inovacijski kazalniki so v analiziranem obdobju močno rasli, rast TFP pa je bila precej bolj neenakomerna.
+
+Takšen rezultat je skladen z idejo splošnonamenske tehnologije iz profesorjevih zapiskov. Širše tehnološke spremembe pogosto zahtevajo komplementarne investicije, reorganizacijo in učenje, zato se lahko njihovi produktivnostni učinki pojavijo šele z zamikom \parencite{polanec_rast}. Pri UI to vključuje podatkovno infrastrukturo, računsko moč, programsko opremo, spremembe delovnih procesov in usposabljanje zaposlenih.
+
+\subsection{Primerjava napovedi modela z ugotovitvami}
+
+Podatki so najbolj skladni s prvima členoma teoretičnega mehanizma. Viri za R\&R so se povečali, federalno financiranje raziskav UI je doseglo večmilijardne zneske, merljiva UI-povezana patentna aktivnost pa se je močno razširila. Manj jasen je zadnji člen, torej prenos teh sprememb v trajno višjo agregatno TFP.
+
+Naše ugotovitve zato ne potrjujejo močne trditve, da je UI v obdobju 2010--2025 že povzročila trajen skok ameriške TFP. So pa skladne s šibkejšo in ekonomsko bolj utemeljeno trditvijo: povečali so se raziskovalni inputi in merljivo ustvarjanje UI-povezanega znanja, učinek na agregatno produktivnost pa je zaradi implementacijskih zamikov, merilnih težav in drugih makroekonomskih šokov težje izolirati. Takšno zaporedje dopuščata tako endogena teorija rasti kot koncept splošnonamenske tehnologije.
+
+\section{Kritična presoja in zaključek}
+
+\subsection{Odgovor na raziskovalno vprašanje}
+
+Raziskovalno vprašanje je bilo, ali rast vlaganj v umetno inteligenco in širjenje inovacij, povezanih z UI, v ZDA v obdobju 2010--2025 spremljata povečano ustvarjanje novega znanja in rast skupne faktorske produktivnosti ter kako lahko to povezavo pojasnimo z modelom endogene gospodarske rasti.
+
+Analiza pokaže, da je prvi del povezave v podatkih precej jasen. Ameriški izdatki za R\&R so se močno povečali, federalna vlaganja v UI R\&R pa so po letu 2019 dosegla večmilijardne ravni. Hkrati je močno narasla tudi UI-povezana patentna aktivnost, kar je skladno z večjim ustvarjanjem formaliziranega tehnološkega znanja.
+
+Pri TFP je odgovor bolj zadržan. V novejšem obdobju je mogoče opaziti nekoliko višjo povprečno rast, vendar je serija zelo volatilna in močno zaznamovana s pandemskimi šoki. Podatki zato ne kažejo jasnega in takojšnjega prenosa rasti UI in R\&R v trajno višjo agregatno TFP. Ugotovitve so vseeno skladne z endogenim mehanizmom, po katerem večji raziskovalni inputi in učinkovitejše ustvarjanje znanja lahko dolgoročno povečajo produktivnost, pri čemer se učinek lahko pokaže z zamikom.
+
+\subsection{Omejitve analize}
+
+Največja omejitev analize je, da gre za opisno primerjavo časovnih vrst. Sočasna rast UI-kazalnikov, patentov in TFP ne pomeni, da je umetna inteligenca povzročila rast produktivnosti. Vzročnost je lahko dvosmerna: višja produktivnost in dobički lahko podjetjem omogočijo več investicij v R\&R, več vlaganj pa lahko pozneje spodbudi nadaljnjo produktivnost. Poleg tega na TFP vplivajo številni drugi dejavniki, zato brez kontrolne skupine, mikroekonomskih podatkov ali ustrezne identifikacijske strategije vzročnega učinka ne moremo oceniti.
+
+Druga omejitev je merjenje umetne inteligence. Federalni proračunski izdatki, patentni dokumenti in dejanska uporaba UI v podjetjih merijo različne faze inovacijskega procesa. Rast enega kazalnika zato ne pomeni nujno enake rasti vseh drugih. Posebej pazljivi moramo biti pri FY2025, kjer NITRD objavlja proračunsko zahtevo in ne realizirane porabe.
+
+Tretja omejitev je časovni zamik. Profesorjevi zapiski pri splošnonamenskih tehnologijah poudarjajo stroške razvoja komplementarnih inputov, namestitve in učenja \parencite{polanec_rast}. Pri UI lahko to pomeni investicije v podatkovno infrastrukturo, računsko moč, programsko opremo, organizacijske spremembe in usposabljanje zaposlenih. Posledično lahko patentna in investicijska aktivnost naraščata več let pred tem, ko se učinek v večjem obsegu pokaže v agregatni TFP.
+
+Četrta omejitev je sama narava TFP. Ker gre za rezidual, se vanjo prenesejo napake pri merjenju kapitala, dela in kakovosti inputov. TFP poleg tehnologije zajema tudi organizacijo, alokacijo virov, ekonomije obsega in druge spremembe učinkovitosti. Zato ni pravilno vsakega povečanja TFP neposredno interpretirati kot tehnološki napredek, še manj pa kot učinek UI.
+
+Peta omejitev so patenti. Patentni dokumenti ne zajamejo vseh inovacij, saj podjetja del znanja varujejo drugače, nekatera znanja pa sploh niso patentabilna. Tudi med patentiranimi izumi so velike razlike v gospodarski vrednosti. Število patentov je zato predvsem količinski indikator in ne neposredna mera kakovosti oziroma ekonomskega pomena novega znanja.
+
+Nazadnje je pomembna dolžina analiziranega obdobja. Največji razmah generativne UI se je zgodil šele v zadnjih letih, zato je leto 2025 verjetno prezgodnje za zanesljivo presojo dolgoročnega makroekonomskega učinka. Močni učinki se lahko najprej pokažejo v posameznih panogah in podjetjih, v agregatni TFP pa šele pozneje.
+
+\subsection{Zaključek}
+
+Rezultati kažejo, da je ameriško gospodarstvo v obdobju 2010--2025 povečalo tako širše vire za R\&R kot dejavnosti, neposredno povezane z umetno inteligenco. Hkrati se je razširila merljiva UI-povezana inovacijska aktivnost. To je skladno z napovedjo endogene teorije rasti, da vlaganja v raziskovanje in ustvarjanje znanja predstavljajo pomemben vir tehnološkega napredka.
+
+Najbolj previdni moramo biti pri sklepanju o agregatni produktivnosti. Trenutni podatki še ne omogočajo trditve, da je umetna inteligenca povzročila trajen skok TFP. Bolj utemeljen sklep je, da se je okrepil raziskovalni in inovacijski del mehanizma, medtem ko je morebitni dolgoročni produktivnostni učinek še težko ločiti od časovnih zamikov in drugih gospodarskih sprememb. Nadaljnje raziskave bi bilo zato smiselno usmeriti v sektorske in podjetniške podatke ter makroekonomsko primerjavo ponoviti čez nekaj let.
+
+\newpage
+\printbibliography[title={Literatura in viri}]
+
+\end{document}
