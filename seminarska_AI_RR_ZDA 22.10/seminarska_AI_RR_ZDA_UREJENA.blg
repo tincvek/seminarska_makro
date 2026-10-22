@@ -1,0 +1,16 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'seminarska_AI_RR_ZDA_UREJENA.blg'
+[116] biber-MSWIN64:342> INFO - === 
+[173] Biber.pm:421> INFO - Reading 'seminarska_AI_RR_ZDA_UREJENA.bcf'
+[272] Biber.pm:1002> INFO - Found 8 citekeys in bib section 0
+[285] Biber.pm:4487> INFO - Processing section 0
+[295] Biber.pm:4678> INFO - Looking for bibtex file 'viri.bib' for section 0
+[350] bibtex.pm:1713> INFO - LaTeX decoding ...
+[363] bibtex.pm:1519> INFO - Found BibTeX data source 'viri.bib'
+[412] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[412] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'variable = shifted' with 'variable = non-ignorable'
+[413] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'sl-SI'
+[426] bbl.pm:676> INFO - Writing 'seminarska_AI_RR_ZDA_UREJENA.bbl' with encoding 'UTF-8'
+[429] bbl.pm:779> INFO - Output to seminarska_AI_RR_ZDA_UREJENA.bbl
+[429] Biber.pm:132> WARN - legacy year field 'n.d.' in entry 'polanec_rast' is not an integer - this will probably not sort properly.
+[429] Biber.pm:134> INFO - WARNINGS: 1
