@@ -13,10 +13,10 @@
 \contentsline {subsection}{\numberline {2.6}Razvoj skupne faktorske produktivnosti}{8}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Primerjava UI-kazalnikov, inovacij in TFP}{9}{subsection.2.7}%
 \contentsline {subsection}{\numberline {2.8}Raziskovalne hipoteze}{10}{subsection.2.8}%
-\contentsline {paragraph}{H0:}{10}{section*.7}%
-\contentsline {paragraph}{H1:}{10}{section*.8}%
-\contentsline {paragraph}{H2:}{10}{section*.9}%
-\contentsline {paragraph}{H3:}{10}{section*.10}%
+\contentsline {paragraph}{H1:}{10}{section*.7}%
+\contentsline {paragraph}{H2:}{10}{section*.8}%
+\contentsline {paragraph}{3:}{10}{section*.9}%
+\contentsline {paragraph}{H4:}{10}{section*.10}%
 \contentsline {section}{\numberline {3}Teoretični okvir gospodarske rasti}{11}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Viri dolgoročne gospodarske rasti}{11}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Solow--Swanov model}{12}{subsection.3.2}%

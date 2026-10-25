@@ -94,39 +94,11 @@
       \field{note}{Različica 3.0.1, 12. maj 2021. Prosto dostopen učbenik}
       \field{title}{Intermediate Macroeconomics}
       \field{year}{2021}
-    \endentry
-    \entry{ncses2025}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=197758434fb14d44b5949fd1b210bd40}{%
-           family={{National Center for Science and Engineering Statistics}},
-           familyi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{197758434fb14d44b5949fd1b210bd40}
-      \strng{fullhash}{197758434fb14d44b5949fd1b210bd40}
-      \strng{fullhashraw}{197758434fb14d44b5949fd1b210bd40}
-      \strng{bibnamehash}{197758434fb14d44b5949fd1b210bd40}
-      \strng{authorbibnamehash}{197758434fb14d44b5949fd1b210bd40}
-      \strng{authornamehash}{197758434fb14d44b5949fd1b210bd40}
-      \strng{authorfullhash}{197758434fb14d44b5949fd1b210bd40}
-      \strng{authorfullhashraw}{197758434fb14d44b5949fd1b210bd40}
-      \field{extraname}{1}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{U.S. R\&D expenditures, by performing sector and source of funds: 2010--23}
-      \field{urlday}{20}
-      \field{urlmonth}{10}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://ncses.nsf.gov/pubs/nsb20257/table/DISC-1
+      \verb https://ucilnica.fmf.uni-lj.si/pluginfile.php/177448/mod_resource/content/0/Garin%20%20Lester%20%20Sims%20%282024%29%20Intermediate%20Macro.pdf
       \endverb
       \verb{url}
-      \verb https://ncses.nsf.gov/pubs/nsb20257/table/DISC-1
+      \verb https://ucilnica.fmf.uni-lj.si/pluginfile.php/177448/mod_resource/content/0/Garin%20%20Lester%20%20Sims%20%282024%29%20Intermediate%20Macro.pdf
       \endverb
     \endentry
     \entry{ncses2026}{report}{}{}
@@ -146,7 +118,6 @@
       \strng{authornamehash}{197758434fb14d44b5949fd1b210bd40}
       \strng{authorfullhash}{197758434fb14d44b5949fd1b210bd40}
       \strng{authorfullhashraw}{197758434fb14d44b5949fd1b210bd40}
-      \field{extraname}{2}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -260,11 +231,13 @@
       \strng{authorfullhashraw}{c7e879884ccccc363bdd9515e14ef18b}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Zapiski predavanj pri makroekonomiji}
       \field{title}{Teorija rasti}
+      \field{year}{2014}
     \endentry
     \entry{romer1986}{article}{}{}
       \name{author}{1}{}{%
@@ -397,6 +370,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{ncses2025}
 \endrefsection
 \endinput
 

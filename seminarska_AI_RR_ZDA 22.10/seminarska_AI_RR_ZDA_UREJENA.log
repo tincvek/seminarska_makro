@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.22)  25 OCT 2026 10:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.22)  25 OCT 2026 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -955,7 +955,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'seminarska_AI_RR_ZDA_UREJENA.bbl' found.
- (seminarska_AI_RR_ZDA_UREJENA.bbl)
+ (seminarska_AI_RR_ZDA_UREJENA.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ncses2025
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 50.
 Package biblatex Info: Reference segment=0 on input line 50.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 53.
@@ -1001,30 +1009,40 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout6 = `seminarska_AI_RR_ZDA_UREJENA.toc'.
 
  [2] [3{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [4] [5]
+
+LaTeX Warning: Citation 'ncses2025' on page 6 undefined on input line 137.
+
 PGFPlots: reading {podatki_rnd_usa.csv}
- [6]
-Overfull \hbox (0.1555pt too wide) in paragraph at lines 184--185
+
+LaTeX Warning: Citation 'ncses2025' on page 6 undefined on input line 163.
+
+[6]
+
+LaTeX Warning: Citation 'ncses2025' on page 7 undefined on input line 165.
+
+
+Overfull \hbox (0.1555pt too wide) in paragraph at lines 171--172
 \T1/lmr/m/n/12 Bolj ne-po-sre-den ka-zal-nik raz-i-sko-valne de-jav-no-sti na po-dro-£ju UI so fe-de-ralna ne-obrambna
  []
 
 [7] [8]
 PGFPlots: reading {podatki_tfp_usa.csv}
 
-Overfull \hbox (96.02965pt too wide) in paragraph at lines 252--262
+Overfull \hbox (96.02965pt too wide) in paragraph at lines 239--249
  [][] 
  []
 
 [9] [10] [11] [12] [13] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
 
  []
 
 [16]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 484.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 471.
  (C:\Users\andra\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [17{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [18]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 503.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 490.
  (C:\Users\andra\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [19] (seminarska_AI_RR_ZDA_UREJENA.aux)
@@ -1039,17 +1057,17 @@ Package logreq Info: Writing requests to 'seminarska_AI_RR_ZDA_UREJENA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42278 strings out of 467871
- 957544 string characters out of 5418375
- 1855860 words of memory out of 5000000
- 70445 multiletter control sequences out of 15000+600000
+ 42271 strings out of 467871
+ 957363 string characters out of 5418375
+ 1855809 words of memory out of 5000000
+ 70439 multiletter control sequences out of 15000+600000
  703830 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,118p,1311b,2021s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (19 pages, 380675 bytes).
+Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (19 pages, 381099 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 91 named destinations out of 1000 (max. 500000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
  245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

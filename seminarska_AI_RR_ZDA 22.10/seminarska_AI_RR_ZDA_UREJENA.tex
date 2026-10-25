@@ -66,19 +66,6 @@ Mentor: \textit{Jan Grobovšek}
 \newpage
 
 
-% =================================================================
-% POPRAVLJENO POGLAVJE 1: UVOD (različica 2)
-% PRED PREVAJANJEM:
-% 1) V viri.bib dodajte vnose iz viri_dodatek.bib (garin2021, openai2022, ncses2026).
-% 2) Pri ostalih poglavjih dodajte oznake:
-%      \section{Podatkovna analiza}\label{sec:podatki}
-%      \section{Teoretični okvir gospodarske rasti}\label{sec:teorija}
-%      \section{Uporaba modela in povezava s podatki}\label{sec:uporaba}
-%      \section{Kritična presoja in zaključek}\label{sec:zakljucek}
-% 3) Poglavje 2 uskladite z novo različico NCSES (glej opombo v pogovoru):
-%    R&R 2023 = 937 mrd USD, ocena 2024 = 993 mrd USD.
-% 4) Hipoteze H0--H3 morajo biti v poglavju 3 opredeljene tako kot spodaj.
-% =================================================================
 
 \section{Uvod}\label{sec:uvod}
 
@@ -173,7 +160,7 @@ NCSES poroča o skupnih ameriških izdatkih za R\&R po sektorjih. Za analizo upo
 \label{fig:rnd}
 \end{figure}
 
-Podatki kažejo izrazito povečanje nominalnih ameriških izdatkov za R\&R. Skupni izdatki vseh izvajalskih sektorjev so se povečali s približno 406,6 milijarde USD leta 2010 na približno 939,6 milijarde USD leta 2023 \parencite{ncses2025}. To pomeni več kot podvojitev nominalne vrednosti v trinajstih letih. Ker gre za tekoče dolarje, del rasti odraža rast cen, zato nominalnega povečanja ne smemo enačiti z realnim povečanjem količine raziskovalne dejavnosti.
+Podatki kažejo izrazito povečanje nominalnih ameriških izdatkov za R\&R. Skupni izdatki vseh izvajalskih sektorjev so se povečali s približno 406,6 milijarde USD leta 2010 na približno 937 milijarde USD leta 2023 \parencite{ncses2025}. To pomeni več kot podvojitev nominalne vrednosti v trinajstih letih. Ker gre za tekoče dolarje, del rasti odraža rast cen, zato nominalnega povečanja ne smemo enačiti z realnim povečanjem količine raziskovalne dejavnosti.
 
 Tudi realni podatki kažejo, da rast ni posledica zgolj inflacije. NCSES za obdobje 2013--2023 poroča približno 4,8-odstotno povprečno letno realno rast skupnih izdatkov za R\&R, merjeno v konstantnih dolarjih. Hkrati se je povečala intenzivnost R\&R: delež izdatkov za R\&R je bil od leta 2019 nad 3~\%, leta 2023 pa je znašal približno 3,39~\% \parencite{ncses2025}. Raziskovalna dejavnost je torej rasla hitreje kot gospodarstvo kot celota.
 
@@ -267,7 +254,7 @@ Podatki kažejo povečanje raziskovalnih vložkov in inovacijske aktivnosti, med
 
 Hipoteze so oblikovane kot preverljive povezave med UI, investicijami, akumulacijo kapitala in TFP. Ker razpoložljivi podatki ne vsebujejo vseh spremenljivk iz investicijskega modela, jih v tem poglavju preverjamo predvsem opisno. Oznako $A_t$ uporabljamo enotno za agregatno tehnologijo oziroma produktivnost, medtem ko UI označuje umetno inteligenco.
 
-\paragraph{H0:} UI-vložki in UI-povezana inovacijska aktivnost niso sistematično povezani z investicijami, akumulacijo kapitala ali rastjo TFP. V regresijski obliki:
+\paragraph{H1:} UI-vložki in UI-povezana inovacijska aktivnost niso sistematično povezani z investicijami, akumulacijo kapitala ali rastjo TFP. V regresijski obliki:
 \begin{equation}
 H_0:\quad \beta_{UI}=\beta_{P}=0,
 \end{equation}
@@ -275,7 +262,7 @@ H_0:\quad \beta_{UI}=\beta_{P}=0,
 g_{TFP,t}=\beta_0+\beta_{UI}UI\text{-}R\&R_t+\beta_P P^{UI}_t+\beta_X X_t+\varepsilon_t.
 \end{equation}
 
-\paragraph{H1:} Večji UI- in splošni raziskovalni vložki so povezani z večjo UI-povezano inovacijsko aktivnostjo:
+\paragraph{H2:} Večji UI- in splošni raziskovalni vložki so povezani z večjo UI-povezano inovacijsko aktivnostjo:
 \begin{equation}
 H_1:\quad \gamma_1>0,
 \end{equation}
@@ -284,7 +271,7 @@ P^{UI}_t=\gamma_0+\gamma_1 UI\text{-}R\&R_t+\gamma_2 R\&R_t+u_t.
 \end{equation}
 Ker zapiski opozarjajo, da standardno merjene bruto investicije ne zajamejo vseh izdatkov za R\&R, hipotezo merimo predvsem s patentno aktivnostjo in širšimi izdatki za R\&R.
 
-\paragraph{H2:} Povečanje neto investicij povečuje obseg kapitala in s tem proizvodni potencial. Hipoteza neposredno sledi enačbam iz zapiskov:
+\paragraph{3:} Povečanje neto investicij povečuje obseg kapitala in s tem proizvodni potencial. Hipoteza neposredno sledi enačbam iz zapiskov:
 \begin{equation}
 I_t=NI_t+\delta K_{t-1},
 \end{equation}
@@ -294,7 +281,7 @@ K_t=(1-\delta)K_{t-1}+I_t,
 \end{equation}
 Zato velja $\partial K_t/\partial NI_t>0$. Morebitni učinek UI na TFP je lahko posredovan prek investicij v opremo, programsko opremo, organizacijske spremembe in druge oblike kapitala.
 
-\paragraph{H3:} Investicije se postopoma prilagajajo želenemu obsegu kapitala; višja vrednost kapitala oziroma Tobinovega $q$ povečuje investicije, učinek na TFP pa se pojavi z zamikom. Iz modela fleksibilnega akceleratorja sledi:
+\paragraph{H4:} Investicije se postopoma prilagajajo želenemu obsegu kapitala; višja vrednost kapitala oziroma Tobinovega $q$ povečuje investicije, učinek na TFP pa se pojavi z zamikom. Iz modela fleksibilnega akceleratorja sledi:
 \begin{equation}
 K_t-K_{t-1}=\lambda(K_t^*-K_{t-1}),
 \qquad 0<\lambda\leq 1,
@@ -437,7 +424,7 @@ Podatki so najbolj skladni s prvima členoma teoretičnega mehanizma. Viri za R\
 
 Raziskovalni inputi &
 Več vlaganj v R\&R poveča vire za ustvarjanje novega znanja. &
-Skupni izdatki za R\&R so se povečali s približno 406,6 mrd USD leta 2010 na 939,6 mrd USD leta 2023. \\
+Skupni izdatki za R\&R so se povečali s približno 406,6 mrd USD leta 2010 na 937 mrd USD leta 2023. \\
 
 \hline
 
