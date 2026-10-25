@@ -56,11 +56,59 @@
       \field{pages}{83\bibrangedash 108}
       \range{pages}{26}
     \endentry
-    \entry{ncses2025}{misc}{}{}
+    \entry{garin2021}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f91dbeefaf5b362e8620439c58a6404e}{%
+           family={Garín},
+           familyi={G\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ecc8f4e295ca5560962e156ddb99d1b}{%
+           family={Lester},
+           familyi={L\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8261c59cca4cea65a92c384eaddb25c}{%
+           family={Sims},
+           familyi={S\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cb41993acb256a209ab28593c55326ab}
+      \strng{fullhash}{cb41993acb256a209ab28593c55326ab}
+      \strng{fullhashraw}{cb41993acb256a209ab28593c55326ab}
+      \strng{bibnamehash}{cb41993acb256a209ab28593c55326ab}
+      \strng{authorbibnamehash}{cb41993acb256a209ab28593c55326ab}
+      \strng{authornamehash}{cb41993acb256a209ab28593c55326ab}
+      \strng{authorfullhash}{cb41993acb256a209ab28593c55326ab}
+      \strng{authorfullhashraw}{cb41993acb256a209ab28593c55326ab}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Različica 3.0.1, 12. maj 2021. Prosto dostopen učbenik}
+      \field{title}{Intermediate Macroeconomics}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://ucilnica.fmf.uni-lj.si/pluginfile.php/177448/mod_resource/content/0/Garin%20%20Lester%20%20Sims%20%282024%29%20Intermediate%20Macro.pdf
+      \endverb
+      \verb{url}
+      \verb https://ucilnica.fmf.uni-lj.si/pluginfile.php/177448/mod_resource/content/0/Garin%20%20Lester%20%20Sims%20%282024%29%20Intermediate%20Macro.pdf
+      \endverb
+    \endentry
+    \entry{ncses2026}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=197758434fb14d44b5949fd1b210bd40}{%
            family={{National Center for Science and Engineering Statistics}},
            familyi={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {U.S. National Science Foundation}%
       }
       \strng{namehash}{197758434fb14d44b5949fd1b210bd40}
       \strng{fullhash}{197758434fb14d44b5949fd1b210bd40}
@@ -76,17 +124,22 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{U.S. R\&D expenditures, by performing sector and source of funds: 2010--23}
-      \field{urlday}{20}
+      \field{day}{27}
+      \field{month}{2}
+      \field{number}{NSF 26-314}
+      \field{title}{U.S. R\&D Totaled \$937 Billion in 2023; Estimate for 2024 Indicates Further Increase to \$993 Billion}
+      \field{type}{InfoBrief}
+      \field{urlday}{25}
       \field{urlmonth}{10}
       \field{urlyear}{2026}
-      \field{year}{2025}
+      \field{year}{2026}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://ncses.nsf.gov/pubs/nsb20257/table/DISC-1
+      \verb https://ncses.nsf.gov/pubs/nsf26314
       \endverb
       \verb{url}
-      \verb https://ncses.nsf.gov/pubs/nsb20257/table/DISC-1
+      \verb https://ncses.nsf.gov/pubs/nsf26314
       \endverb
     \endentry
     \entry{nitrd2025}{misc}{}{}
@@ -122,6 +175,43 @@
       \verb https://www.nitrd.gov/ai-rd-investments/
       \endverb
     \endentry
+    \entry{openai2022}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={{OpenAI}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhashraw}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{11}
+      \field{note}{Povezavo odprite in preverite pred oddajo}
+      \field{title}{Introducing {ChatGPT}}
+      \field{urlday}{25}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://openai.com/index/chatgpt/
+      \endverb
+      \verb{url}
+      \verb https://openai.com/index/chatgpt/
+      \endverb
+    \endentry
     \entry{polanec_rast}{unpublished}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c7e879884ccccc363bdd9515e14ef18b}{%
@@ -141,11 +231,13 @@
       \strng{authorfullhashraw}{c7e879884ccccc363bdd9515e14ef18b}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Zapiski predavanj pri makroekonomiji}
       \field{title}{Teorija rasti}
+      \field{year}{2014}
     \endentry
     \entry{romer1986}{article}{}{}
       \name{author}{1}{}{%
@@ -278,6 +370,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{ncses2025}
 \endrefsection
 \endinput
 

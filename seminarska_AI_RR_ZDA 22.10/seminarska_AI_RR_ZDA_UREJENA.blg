@@ -1,16 +1,14 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is 'seminarska_AI_RR_ZDA_UREJENA.blg'
-[175] biber-MSWIN64:342> INFO - === 
-[243] Biber.pm:421> INFO - Reading 'seminarska_AI_RR_ZDA_UREJENA.bcf'
-[438] Biber.pm:1002> INFO - Found 11 citekeys in bib section 0
-[463] Biber.pm:4487> INFO - Processing section 0
-[484] Biber.pm:4678> INFO - Looking for bibtex file 'viri.bib' for section 0
-[599] bibtex.pm:1713> INFO - LaTeX decoding ...
-[626] bibtex.pm:1519> INFO - Found BibTeX data source 'viri.bib'
-[775] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[775] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'variable = shifted' with 'variable = non-ignorable'
-[775] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'sl-SI'
-[809] bbl.pm:676> INFO - Writing 'seminarska_AI_RR_ZDA_UREJENA.bbl' with encoding 'UTF-8'
-[823] bbl.pm:779> INFO - Output to seminarska_AI_RR_ZDA_UREJENA.bbl
-[824] Biber.pm:132> WARN - I didn't find a database entry for 'ncses2025' (section 0)
-[824] Biber.pm:134> INFO - WARNINGS: 1
+[1] Config.pm:331> INFO - Logfile is 'seminarska_AI_RR_ZDA_UREJENA.blg'
+[164] biber-MSWIN64:342> INFO - === 
+[230] Biber.pm:421> INFO - Reading 'seminarska_AI_RR_ZDA_UREJENA.bcf'
+[407] Biber.pm:1002> INFO - Found 10 citekeys in bib section 0
+[426] Biber.pm:4487> INFO - Processing section 0
+[446] Biber.pm:4678> INFO - Looking for bibtex file 'viri.bib' for section 0
+[571] bibtex.pm:1713> INFO - LaTeX decoding ...
+[600] bibtex.pm:1519> INFO - Found BibTeX data source 'viri.bib'
+[710] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'variable = shifted' with 'variable = non-ignorable'
+[710] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[710] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'sl-SI'
+[732] bbl.pm:676> INFO - Writing 'seminarska_AI_RR_ZDA_UREJENA.bbl' with encoding 'UTF-8'
+[742] bbl.pm:779> INFO - Output to seminarska_AI_RR_ZDA_UREJENA.bbl
