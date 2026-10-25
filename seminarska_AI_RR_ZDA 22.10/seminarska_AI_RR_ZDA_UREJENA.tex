@@ -99,43 +99,37 @@ V drugem poglavju predstavimo uporabljene podatke in analiziramo razvoj izdatkov
 
 \section{Podatkovna analiza}
 
-V tem poglavju s podatki za ZDA v obdobju 2010--2025 predstavimo glavne empirične trende, povezane z raziskavami in razvojem, umetno inteligenco, ustvarjanjem novega tehnološkega znanja in skupno faktorsko produktivnostjo. Namen podatkovne analize je ugotoviti, ali se je v obdobju hitrega razvoja umetne inteligence povečal obseg virov, namenjenih raziskovanju, ali temu sledi več merljive inovacijske aktivnosti in ali je podoben vzorec mogoče opaziti tudi pri agregatni produktivnosti.
+V tem poglavju s podatki za ZDA v obdobju 2010--2025 analiziramo povezavo med raziskavami in razvojem (R\&R), umetno inteligenco (UI), ustvarjanjem novega tehnološkega znanja in skupno faktorsko produktivnostjo (TFP). Namen analize je preveriti, ali se je v obdobju hitrega razvoja UI povečal obseg raziskovalnih vložkov, ali je temu sledila večja merljiva inovacijska aktivnost in ali je mogoče podoben vzorec opaziti tudi pri agregatni produktivnosti.
 
 \subsection{Viri podatkov in izbor spremenljivk}
 
-Za analizo uporabimo štiri skupine kazalnikov. Širši obseg raziskovalne dejavnosti merimo s skupnimi izdatki ZDA za R\&R, ki jih objavlja National Center for Science and Engineering Statistics (NCSES). Bolj neposredno usmerjenost raziskovalnih sredstev v umetno inteligenco spremljamo s podatki Networking and Information Technology Research and Development programa (NITRD) o federalnih nedobrambnih izdatkih za UI R\&R. Kot približek ustvarjanju novega tehnološkega znanja uporabimo patentne dokumente, povezane z umetno inteligenco, iz podatkovnega niza USPTO Artificial Intelligence Patent Dataset. Končni makroekonomski kazalnik predstavlja rast skupne faktorske produktivnosti v zasebnem ne-kmetijskem poslovnem sektorju, ki jo objavlja U.S. Bureau of Labor Statistics (BLS).
+Za analizo uporabimo štiri skupine kazalnikov. Širši obseg raziskovalne dejavnosti merimo s skupnimi izdatki ZDA za R\&R, ki jih objavlja National Center for Science and Engineering Statistics (NCSES). Usmerjenost raziskovalnih sredstev v UI spremljamo s podatki programa Networking and Information Technology Research and Development (NITRD) o federalnih ne-obrambnih izdatkih za UI R\&R. Kot približek ustvarjanju novega tehnološkega znanja uporabimo patentne dokumente, povezane z UI, iz podatkovnega niza USPTO Artificial Intelligence Patent Dataset. Končni makroekonomski kazalnik je rast TFP v zasebnem nekmetijskem poslovnem sektorju, ki jo objavlja U.S. Bureau of Labor Statistics (BLS).
 
-Kazalniki tako predstavljajo različne stopnje istega procesa: izdatki za R\&R merijo raziskovalne inpute, patentna aktivnost predstavlja približek nastajanju novega tehnološkega znanja, TFP pa meri spremembe učinkovitosti uporabe proizvodnih dejavnikov na ravni gospodarstva.
+Kazalniki predstavljajo različne stopnje istega procesa: izdatki za R\&R merijo raziskovalne vložke, patentna aktivnost je približek nastajanju formaliziranega tehnološkega znanja, TFP pa meri spremembe učinkovitosti uporabe dela in kapitala na ravni gospodarstva.
 
 \begin{table}[H]
 \centering
 \caption{Kazalniki, uporabljeni v empirični analizi}
 \small
-\begin{tabularx}{\textwidth}{
->{\raggedright\arraybackslash}p{3.0cm}
->{\raggedright\arraybackslash}X
->{\centering\arraybackslash}p{2.4cm}
->{\centering\arraybackslash}p{2.2cm}}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.0cm} >{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{2.4cm} >{\centering\arraybackslash}p{2.2cm}}
 \toprule
 \textbf{Koncept} & \textbf{Kazalnik} & \textbf{Obdobje} & \textbf{Vir} \\
 \midrule
 Splošna vlaganja v R\&R & Izdatki ZDA za R\&R & 2010--2023 & NCSES/NSF \\
-UI-specifični R\&R & Federalni nedobrambni izdatki za UI R\&R & 2019--2025 & NITRD \\
+UI-specifični R\&R & Federalni ne-obrambni izdatki za UI R\&R & 2019--2025 & NITRD \\
 Novo tehnološko znanje & UI-patenti oziroma patentni dokumenti & 2010--2023 & USPTO \\
-Produktivnost & Rast TFP, zasebni ne-kmetijski poslovni sektor & 2010--2025 & BLS \\
+Produktivnost & Rast TFP v zasebnem nekmetijskem poslovnem sektorju & 2010--2025 & BLS \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
 \subsection{Metoda analize}
 
-Empirični del temelji na opisni analizi časovnih vrst. Za posamezne kazalnike najprej prikažemo njihovo gibanje skozi čas in nato primerjamo razvoj med obdobji 2010--2014, 2015--2019 in 2020--2025. Ker vse podatkovne serije ne pokrivajo celotnega obdobja, pri posameznem kazalniku uporabljamo samo leta, za katera so na voljo primerljivi uradni podatki, manjkajočih vrednosti pa ne interpoliramo.
+Empirični del temelji na opisni analizi časovnih vrst. Pri posameznem kazalniku najprej prikažemo njegovo gibanje skozi čas, nato pa primerjamo obdobja 2010--2014, 2015--2019 in 2020--2025. Ker vse serije ne pokrivajo celotnega obdobja, uporabimo pri posameznem kazalniku samo leta, za katera so na voljo primerljivi uradni podatki. Manjkajočih vrednosti ne interpoliramo.
 
-Pri denarnih spremenljivkah je pomembno razlikovati med nominalnimi in realnimi vrednostmi. Skupni ameriški izdatki za R\&R so v osnovnem grafu izraženi v tekočih dolarjih, zato njihove rasti ne moremo v celoti pripisati povečanju realnega obsega raziskovalne dejavnosti. Pri interpretaciji zato upoštevamo tudi realne stopnje rasti in spremembe deleža izdatkov za R\&R v BDP.
+Pri denarnih spremenljivkah razlikujemo med nominalnimi in realnimi vrednostmi. Skupni ameriški izdatki za R\&R so v osnovnem prikazu izraženi v tekočih dolarjih, zato njihove rasti ni mogoče v celoti pripisati povečanju realnega obsega raziskovalne dejavnosti. Pri interpretaciji zato upoštevamo tudi realne stopnje rasti in delež izdatkov za R\&R v BDP.
 
-Analizo izvajamo zaporedno. Najprej preverimo, kako so se spreminjali viri za R\&R in raziskave na področju umetne inteligence. Nato analiziramo patentno aktivnost kot približek ustvarjanju novega znanja in nazadnje gibanje TFP. Pri primerjavi upoštevamo, da se lahko učinki nove tehnologije na agregatno produktivnost pojavijo z zamikom, saj njena uvedba zahteva dodatne investicije, organizacijske spremembe in učenje.
-
-Takšna analiza omogoča ugotavljanje časovnega zaporedja in skladnosti podatkov s teoretičnim mehanizmom, ne omogoča pa dokazovanja vzročnosti. Na produktivnost vplivajo številni drugi dejavniki, hkrati pa lahko tudi višja produktivnost spodbuja dodatna vlaganja v R\&R. Rezultate zato razumemo kot opisno preverjanje povezave med kazalniki in ne kot oceno čistega vzročnega učinka umetne inteligence na TFP.
+Analiza poteka v treh korakih. Najprej obravnavamo skupne in UI-specifične raziskovalne vložke, nato patentno aktivnost kot približek ustvarjanju novega znanja in nazadnje gibanje TFP. Učinki nove tehnologije na agregatno produktivnost se lahko pojavijo z zamikom, saj njena uvedba zahteva dodatne investicije, organizacijske spremembe in učenje. Opisna analiza zato omogoča preverjanje časovnega zaporedja in skladnosti podatkov s teoretičnim mehanizmom, ne omogoča pa dokazovanja vzročnosti. Rezultate razumemo kot opisno preverjanje povezav in ne kot oceno čistega vzročnega učinka UI na TFP.
 
 \subsection{Razvoj izdatkov za raziskave in razvoj}
 
@@ -157,11 +151,7 @@ NCSES poroča o skupnih ameriških izdatkih za R\&R po sektorjih. Za analizo upo
     tick label style={/pgf/number format/fixed},
     y tick label style={/pgf/number format/1000 sep={\,}}
 ]
-\addplot+[mark=*] table[
-    x=leto,
-    y=skupaj_mio_usd,
-    col sep=comma
-]{podatki_rnd_usa.csv};
+\addplot+[mark=*] table[x=leto,y=skupaj_mio_usd,col sep=comma]{podatki_rnd_usa.csv};
 \end{axis}
 \end{tikzpicture}
 \caption{Skupni izdatki za R\&R v ZDA, 2010--2023}
@@ -169,17 +159,17 @@ NCSES poroča o skupnih ameriških izdatkih za R\&R po sektorjih. Za analizo upo
 \label{fig:rnd}
 \end{figure}
 
-Podatki kažejo zelo izrazito povečanje nominalnih ameriških izdatkov za R\&R. Skupni izdatki vseh izvajalskih sektorjev so se povečali s približno 406,6 milijarde USD leta 2010 na približno 939,6 milijarde USD leta 2023 \parencite{ncses2025}. To pomeni več kot podvojitev nominalne vrednosti v trinajstih letih. Ker gre za tekoče dolarje, del rasti odraža rast cen, zato nominalnega povečanja ne smemo enačiti z realnim povečanjem količine raziskovalne dejavnosti.
+Podatki kažejo izrazito povečanje nominalnih ameriških izdatkov za R\&R. Skupni izdatki vseh izvajalskih sektorjev so se povečali s približno 406,6 milijarde USD leta 2010 na približno 939,6 milijarde USD leta 2023 \parencite{ncses2025}. To pomeni več kot podvojitev nominalne vrednosti v trinajstih letih. Ker gre za tekoče dolarje, del rasti odraža rast cen, zato nominalnega povečanja ne smemo enačiti z realnim povečanjem količine raziskovalne dejavnosti.
 
-Tudi realni podatki potrjujejo, da ne gre zgolj za inflacijski učinek. NCSES za obdobje 2013--2023 poroča približno 4,8-odstotno povprečno letno realno rast skupnih izdatkov za R\&R, merjeno v konstantnih dolarjih. Hkrati se je povečala intenzivnost R\&R: delež izdatkov za R\&R v BDP je od leta 2019 nad 3~\%, leta 2023 pa je znašal približno 3,39~\% \parencite{ncses2025}. Raziskovalna dejavnost je torej v tem obdobju rasla hitreje kot gospodarstvo kot celota.
+Tudi realni podatki kažejo, da rast ni posledica zgolj inflacije. NCSES za obdobje 2013--2023 poroča približno 4,8-odstotno povprečno letno realno rast skupnih izdatkov za R\&R, merjeno v konstantnih dolarjih. Hkrati se je povečala intenzivnost R\&R: delež izdatkov za R\&R je bil od leta 2019 nad 3~\%, leta 2023 pa je znašal približno 3,39~\% \parencite{ncses2025}. Raziskovalna dejavnost je torej rasla hitreje kot gospodarstvo kot celota.
 
-Za naše raziskovalno vprašanje je pomembno tudi, da je glavnino ameriškega R\&R izvajal in financiral poslovni sektor. To je skladno z endogeno teorijo rasti, kjer podjetja vlagajo v ustvarjanje novega znanja zaradi pričakovanih prihodnjih donosov. Sam trend R\&R še ne pove, kolikšen del dodatnega raziskovanja je povezan neposredno z umetno inteligenco, kaže pa, da se je v analiziranem obdobju širša baza virov za inoviranje močno povečala.
+Glavnino ameriškega R\&R je izvajal in financiral poslovni sektor. To je skladno z endogeno teorijo rasti, v kateri podjetja vlagajo v ustvarjanje novega znanja zaradi pričakovanih prihodnjih donosov. Sam trend skupnih izdatkov še ne pove, kolikšen del dodatnega raziskovanja je neposredno povezan z UI, kaže pa na širitev raziskovalne osnove za inoviranje.
 
 \subsection{Federalna vlaganja v UI R\&R}
 
-Bolj neposreden kazalnik raziskovalne dejavnosti na področju umetne inteligence predstavljajo federalna nedobrambna vlaganja v UI R\&R, ki jih objavlja NITRD \parencite{nitrd2025}. Pri teh podatkih je pomembno razlikovati med dejansko porabo, odobrenimi sredstvi in proračunskimi zahtevami.
+Bolj neposreden kazalnik raziskovalne dejavnosti na področju UI so federalna ne-obrambna vlaganja v UI R\&R, ki jih objavlja NITRD \parencite{nitrd2025}. Pri teh podatkih je treba razlikovati med dejansko porabo, odobrenimi sredstvi in proračunskimi zahtevami.
 
-NITRD razlikuje med postavko \emph{Core UI} in širšim seštevkom UI R\&R. Core UI zajema raziskave, pri katerih je umetna inteligenca neposredno osrednji predmet, na primer strojno učenje, računalniški vid, jezikovne algoritme ali arhitekture za nevronske mreže. Širši skupni znesek vključuje tudi raziskovalne aktivnosti, ki so evidentirane v drugih programskih področjih, vendar imajo pomembno UI-komponento \parencite{nitrd2025}.
+NITRD razlikuje med postavko \emph{Core UI} in širšim seštevkom UI R\&R. \emph{Core UI} zajema raziskave, pri katerih je UI neposredni predmet, na primer strojno učenje, računalniški vid, jezikovni algoritmi in arhitekture nevronskih mrež. Širši seštevek vključuje tudi dejavnosti, evidentirane na drugih programskih področjih, vendar z pomembno komponento UI \parencite{nitrd2025}.
 
 \begin{table}[H]
 \centering
@@ -188,36 +178,34 @@ NITRD razlikuje med postavko \emph{Core UI} in širšim seštevkom UI R\&R. Core
 \toprule
 \textbf{Fiskalno leto} & \textbf{Core UI (mio USD)} & \textbf{Skupaj (mio USD)} \\
 \midrule
-FY2023 dejansko & 1914,2 & 3121,9 \\
-FY2024 odobreno & 1789,0 & 2977,5 \\
-FY2025 zahteva & 1954,5 & 3316,1 \\
+FY2023 dejansko & 1.914,2 & 3.121,9 \\
+FY2024 odobreno & 1.789,0 & 2.977,5 \\
+FY2025 zahteva & 1.954,5 & 3.316,1 \\
 \bottomrule
 \end{tabular}
 \caption*{\footnotesize Vir: NITRD; lastna priprava.}
 \label{tab:UI-rd}
 \end{table}
 
-V FY2023 je dejanska nedobrambna federalna poraba za UI R\&R znašala približno 3,12 milijarde USD, od tega približno 1,91 milijarde USD za Core UI. Za FY2024 je bilo odobrenih približno 2,98 milijarde USD, proračunska zahteva za FY2025 pa je znašala približno 3,32 milijarde USD. Če bi bila zahteva za FY2025 v celoti realizirana, bi to pomenilo približno 11,4-odstotno povečanje skupnega zneska glede na odobreno raven FY2024.
+V FY2023 je ne-obrambna federalna poraba za UI R\&R znašala približno 3,12 milijarde USD, od tega 1,91 milijarde USD za \emph{Core UI}. Za FY2024 je bilo odobrenih približno 2,98 milijarde USD, proračunska zahteva za FY2025 pa je znašala približno 3,32 milijarde USD. Če bi bila zahteva za FY2025 v celoti realizirana, bi to pomenilo približno 11,4-odstotno povečanje glede na odobreno raven FY2024. Podatka za FY2025 zato ne interpretiramo kot že realizirano porabo.
 
-Pri primerjavi je pomembno razlikovati med dejansko porabo, odobrenimi sredstvi in proračunsko zahtevo, zato podatka za FY2025 ne interpretiramo kot že realizirano porabo. Kljub kratki časovni seriji podatki od FY2019 naprej kažejo, da je umetna inteligenca postala pomembno področje federalnega financiranja raziskav. V kombinaciji z rastjo skupnih ameriških izdatkov za R\&R to kaže na povečevanje raziskovalnih inputov, povezanih tako s širšo raziskovalno dejavnostjo kot posebej z razvojem umetne inteligence.
+Podatki od FY2019 naprej kažejo, da je UI postala pomembno področje federalnega financiranja raziskav. V kombinaciji z rastjo skupnih ameriških izdatkov za R\&R to kaže na povečanje raziskovalnih vložkov, povezanih tako s širšo raziskovalno dejavnostjo kot posebej z razvojem UI.
 
 \subsection{Ustvarjanje novega znanja: UI-patenti}
 
-USPTO Artificial Intelligence Patent Dataset (AIPD 2023) omogoča identifikacijo patentnih dokumentov, povezanih z umetno inteligenco, do leta 2023 \parencite{uspto2025aipd}. Posodobljeni podatkovni niz zajema 15,4 milijona patentnih dokumentov, objavljenih do leta 2023, in jih razvršča glede na verjetnost, da vsebujejo tehnologijo umetne inteligence \parencite{uspto2025aipd}.
+USPTO Artificial Intelligence Patent Dataset omogoča identifikacijo patentnih dokumentov, povezanih z UI, do leta 2023 \parencite{uspto2025aipd}. Posodobljeni podatkovni niz zajema 15,4 milijona patentnih dokumentov, objavljenih do leta 2023, in jih razvršča glede na verjetnost, da vsebujejo tehnologijo UI.
 
-Patentni dokumenti niso popolna mera inovacij. Vsa nova znanja niso patentirana, podjetja lahko svoje inovacije varujejo s poslovnimi skrivnostmi, prav tako pa se posamezni patenti močno razlikujejo po tehnološkem in gospodarskem pomenu. Število patentnih dokumentov zato razumemo predvsem kot približek intenzivnosti formalizirane izumiteljske dejavnosti.
+Patentni dokumenti niso popolna mera inovacij. Vsa nova znanja niso patentirana, podjetja lahko inovacije varujejo s poslovnimi skrivnostmi, posamezni patenti pa se močno razlikujejo po tehnološkem in gospodarskem pomenu. Število patentnih dokumentov zato razumemo kot približek intenzivnosti formalizirane izumiteljske dejavnosti.
 
-Posodobitev AIPD kaže izrazit dolgoročni porast patentnih dokumentov, ki jih model prepozna kot povezane z UI. Leta 2023 je bilo pri 50-odstotnem klasifikacijskem pragu prepoznanih že nekaj več kot 210.000 takšnih dokumentov \parencite{uspto2025aipd}. Takšen razvoj kaže na hitro širjenje UI med različnimi tehnološkimi področji in je skladen z rastjo raziskovalnih aktivnosti, ki smo jo opazili pri izdatkih za R\&R. Ker priloženi podatki ne vsebujejo enotno agregirane letne serije patentnih dokumentov, v nalogi ne prikazujemo letnega grafa, da ne bi ustvarili navidezne natančnosti.
+Posodobitev podatkovnega niza kaže dolgoročno rast števila patentnih dokumentov, ki jih model prepozna kot povezane z UI. Leta 2023 je bilo pri 50-odstotnem klasifikacijskem pragu prepoznanih nekaj več kot 210.000 takšnih dokumentov \parencite{uspto2025aipd}. Razvoj je skladen z rastjo raziskovalnih aktivnosti, vendar iz razpoložljivih podatkov ni mogoče oblikovati enotne agregirane letne serije. Zato letnega grafa patentov ne prikazujemo, da ne bi ustvarili navidezne natančnosti.
 
 \subsection{Razvoj skupne faktorske produktivnosti}
 
-BLS definira TFP kot razmerje med indeksom realnega outputa in indeksom kombiniranih inputov dela in kapitala. Za leto 2025 BLS poroča 0,8-odstotno rast TFP v zasebnem ne-kmetijskem poslovnem sektorju \parencite{bls2026tfp}.
+BLS definira TFP kot razmerje med indeksom realnega outputa in indeksom kombiniranih vložkov dela in kapitala. Za leto 2025 BLS poroča o 0,8-odstotni rasti TFP v zasebnem nekmetijskem poslovnem sektorju \parencite{bls2026tfp}.
 
-Gibanje TFP je bistveno bolj volatilno kot gibanje izdatkov za R\&R. V obdobju 2010--2019 se letne stopnje rasti večinoma gibljejo blizu ničle oziroma okoli enega odstotka, z izrazitejšim pospeškom leta 2010. Pandemsko obdobje povzroči zelo velika nihanja: po padcu leta 2020 je leta 2021 sledil močan skok, nato pa padec leta 2022. V letih 2023 in 2024 se TFP ponovno poveča, leta 2025 pa BLS poroča 0,8-odstotno rast \parencite{bls2026tfp}.
+Gibanje TFP je precej bolj volatilno kot gibanje izdatkov za R\&R. V obdobju 2010--2019 so se letne stopnje rasti večinoma gibale blizu ničle oziroma okoli enega odstotka. Pandemsko obdobje je povzročilo velika nihanja: po padcu leta 2020 je leta 2021 sledil močan skok, nato padec leta 2022, v letih 2023 in 2024 pa ponovno povečanje. Leta 2025 je BLS poročal o 0,8-odstotni rasti.
 
-Povprečja po pod-obdobjih pokažejo, da je bila povprečna letna rast TFP približno 0,8~\% v letih 2010--2014, približno 0,64~\% v letih 2015--2019 in približno 1,0~\% v obdobju 2020--2025. Zadnje povprečje je treba interpretirati previdno, ker ga močno določajo izjemna pandemska nihanja. BLS tudi sam opozarja, da je produktivnost predvsem dolgoročen koncept in da kratkoročni šoki lahko močno zamaknejo ali popačijo letne stopnje rasti.
-
-Zanimivo je, da BLS za celotni poslovni cikel 2019--2025 ocenjuje približno 1,0-odstotno povprečno letno rast TFP, v prejšnjem ciklu 2007--2019 pa približno 0,6~\% \parencite{bls2026tfp}. To je skladno z možnostjo določenega pospeška produktivnosti v novejšem obdobju, vendar iz tega še ne moremo sklepati, da je vzrok umetna inteligenca. Sočasno so se spreminjali struktura dela, kapitalske investicije, dobavne verige, fiskalna politika in številni drugi dejavniki.
+Povprečna letna rast TFP je znašala približno 0,80~\% v letih 2010--2014, 0,64~\% v letih 2015--2019 in 1,00~\% v obdobju 2020--2025. Zadnje povprečje je treba interpretirati previdno, ker ga močno določajo pandemska nihanja. BLS za poslovni cikel 2019--2025 ocenjuje približno 1,0-odstotno povprečno letno rast TFP, za cikel 2007--2019 pa približno 0,6~\%. To je skladno z možnostjo določenega pospeška produktivnosti, vendar samo časovno sovpadanje ne dokazuje, da je bil vzrok UI. V istem obdobju so se spreminjali struktura dela, kapitalske investicije, dobavne verige, fiskalna politika in drugi dejavniki.
 
 \begin{figure}[H]
 \centering
@@ -229,51 +217,91 @@ Zanimivo je, da BLS za celotni poslovni cikel 2019--2025 ocenjuje približno 1,0
     ylabel={Rast TFP (\%)},
     grid=major,
     xtick=data,
-    xticklabel={\pgfmathprintnumber[fixed,precision=0,1000 sep={}]{\tick}},
     xticklabel style={rotate=45,anchor=east},
-    ymin=-2,
-    ymax=4.5
+    scaled y ticks=false
 ]
-\addplot+[mark=*] table[
-    x=leto,
-    y=tfp_rast,
-    col sep=comma
-]{podatki_tfp_usa.csv};
-\addplot[dashed] coordinates {(2010,0) (2025,0)};
+\addplot+[mark=*] table[x=leto,y=tfp_rast,col sep=comma]{podatki_tfp_usa.csv};
 \end{axis}
 \end{tikzpicture}
-\caption{Letna rast skupne faktorske produktivnosti v zasebnem ne-kmetijskem poslovnem sektorju ZDA, 2010--2025}
+\caption{Letna rast TFP v zasebnem nekmetijskem poslovnem sektorju ZDA, 2010--2025}
 \caption*{\footnotesize Vir: BLS; lastna priprava.}
 \label{fig:tfp}
 \end{figure}
 
 \subsection{Primerjava UI-kazalnikov, inovacij in TFP}
 
-Primerjava kazalnikov pokaže različno izrazite trende v posameznih delih analiziranega procesa. Najjasnejša je rast raziskovalnih inputov. Skupni ameriški izdatki za R\&R so se v analiziranem obdobju močno povečali, po letu 2019 pa so večmilijardne ravni dosegla tudi federalna vlaganja v UI R\&R. Hkrati podatki USPTO kažejo izrazito širjenje patentne aktivnosti, povezane z umetno inteligenco.
-
-Na strani ustvarjanja novega znanja je torej mogoče opaziti podoben trend kot pri raziskovalnih inputih. Večji obseg sredstev za raziskovanje spremlja rast merljive UI-povezane izumiteljske aktivnosti. Pri skupni faktorski produktivnosti pa je slika manj enotna. Povprečna letna rast TFP je znašala približno 0,80 % v obdobju 2010--2014, 0,64 % v obdobju 2015--2019 in približno 1,00 % v obdobju 2020--2025. Zadnje obdobje je močno zaznamovano s pandemskimi nihanji, zato višje povprečne rasti ne moremo neposredno pripisati umetni inteligenci.
+Primerjava kaže najjasnejšo rast raziskovalnih vložkov in UI-povezane patentne aktivnosti. Skupni ameriški izdatki za R\&R so se v analiziranem obdobju močno povečali, po letu 2019 pa so večmilijardne ravni dosegla tudi federalna vlaganja v UI R\&R. Pri TFP je slika manj enotna: rast je bila pozitivna, vendar volatilna in občutljiva na pandemske ter druge makroekonomske šoke.
 
 \begin{table}[H]
 \centering
-\caption{Primerjava glavnih kazalnikov po pod-obdobjih}
-\small
-\begin{tabularx}{\textwidth}{
->{\raggedright\arraybackslash}X
->{\centering\arraybackslash}X
->{\centering\arraybackslash}X
->{\centering\arraybackslash}X}
+\caption{Primerjava glavnih kazalnikov po podobdobjih}
+\begin{tabular}{p{5.0cm}ccc}
 \toprule
- & \textbf{2010--2014} & \textbf{2015--2019} & \textbf{2020--2025} \\
+\textbf{Kazalnik} & \textbf{2010--2014} & \textbf{2015--2019} & \textbf{2020--2025} \\
 \midrule
-Nominalni CAGR R\&R & 4,0\% & 7,7\% & 9,5\% (2020--2023) \\
-Federalni UI R\&R & n.p. & začetek serije FY2019 & rast do večmilijardne ravni \\
-UI-patentni dokumenti & rast & hitrejša rast & zelo visoka raven do 2023 \\
-Povprečna rast TFP & 0,80\% & 0,64\% & 1,00\% \\
+Nominalni CAGR R\&R & 4,0~\% & 7,7~\% & 9,5~\% (2020--2023) \\
+Federalni UI R\&R & brez primerljive serije & začetek serije FY2019 & rast do večmilijardne ravni \\
+UI-patentni dokumenti & rast & hitrejša rast & visoka raven do 2023 \\
+Povprečna rast TFP & 0,80~\% & 0,64~\% & 1,00~\% \\
 \bottomrule
-\end{tabularx}
+\end{tabular}
 \end{table}
 
-Podatki tako kažejo precej jasno povečanje raziskovalnih inputov in inovacijske aktivnosti, medtem ko je razvoj agregatne TFP manj enakomeren. Iz samega časovnega sovpadanja zato ne moremo sklepati, da je rast umetne inteligence povzročila rast produktivnosti. V naslednjem poglavju predstavimo teoretični okvir, s katerim lahko pojasnimo, kako se raziskovalni inputi in nastajanje novega znanja povezujejo z dolgoročno gospodarsko rastjo.
+Podatki kažejo povečanje raziskovalnih vložkov in inovacijske aktivnosti, medtem ko je razvoj agregatne TFP manj enakomeren. Iz časovnega sovpadanja ne moremo sklepati, da je rast UI povzročila rast produktivnosti. Teoretični okvir v naslednjem poglavju pojasni, kako se raziskovalni vložki in nastajanje novega znanja lahko povežejo z dolgoročno gospodarsko rastjo.
+
+\subsection{Raziskovalne hipoteze}
+
+Hipoteze so oblikovane kot preverljive povezave med UI, investicijami, akumulacijo kapitala in TFP. Ker razpoložljivi podatki ne vsebujejo vseh spremenljivk iz investicijskega modela, jih v tem poglavju preverjamo predvsem opisno. Oznako $A_t$ uporabljamo enotno za agregatno tehnologijo oziroma produktivnost, medtem ko UI označuje umetno inteligenco.
+
+\paragraph{H0:} UI-vložki in UI-povezana inovacijska aktivnost niso sistematično povezani z investicijami, akumulacijo kapitala ali rastjo TFP. V regresijski obliki:
+\begin{equation}
+H_0:\quad \beta_{UI}=\beta_{P}=0,
+\end{equation}
+\begin{equation}
+g_{TFP,t}=\beta_0+\beta_{UI}UI\text{-}R\&R_t+\beta_P P^{UI}_t+\beta_X X_t+\varepsilon_t.
+\end{equation}
+
+\paragraph{H1:} Večji UI- in splošni raziskovalni vložki so povezani z večjo UI-povezano inovacijsko aktivnostjo:
+\begin{equation}
+H_1:\quad \gamma_1>0,
+\end{equation}
+\begin{equation}
+P^{UI}_t=\gamma_0+\gamma_1 UI\text{-}R\&R_t+\gamma_2 R\&R_t+u_t.
+\end{equation}
+Ker zapiski opozarjajo, da standardno merjene bruto investicije ne zajamejo vseh izdatkov za R\&R, hipotezo merimo predvsem s patentno aktivnostjo in širšimi izdatki za R\&R.
+
+\paragraph{H2:} Povečanje neto investicij povečuje obseg kapitala in s tem proizvodni potencial. Hipoteza neposredno sledi enačbam iz zapiskov:
+\begin{equation}
+I_t=NI_t+\delta K_{t-1},
+\end{equation}
+\begin{equation}
+K_t=(1-\delta)K_{t-1}+I_t,
+\qquad K_t-K_{t-1}=NI_t.
+\end{equation}
+Zato velja $\partial K_t/\partial NI_t>0$. Morebitni učinek UI na TFP je lahko posredovan prek investicij v opremo, programsko opremo, organizacijske spremembe in druge oblike kapitala.
+
+\paragraph{H3:} Investicije se postopoma prilagajajo želenemu obsegu kapitala; višja vrednost kapitala oziroma Tobinovega $q$ povečuje investicije, učinek na TFP pa se pojavi z zamikom. Iz modela fleksibilnega akceleratorja sledi:
+\begin{equation}
+K_t-K_{t-1}=\lambda(K_t^*-K_{t-1}),
+\qquad 0<\lambda\leq 1,
+\end{equation}
+\begin{equation}
+I_t=\lambda(K_t^*-K_{t-1})+\delta K_{t-1}.
+\end{equation}
+V q-teoriji je osnovni pogoj:
+\begin{equation}
+p_{K,t}(q_t-1)=C'_I(I_t,K_t),
+\qquad q_t=\frac{\nu_t}{p_{K,t}},
+\end{equation}
+pri čemer je $\nu_t$ mejna vrednost enote kapitala. Pri kvadratnih stroških prilagajanja velja $q_t>1\Rightarrow I_t>\delta K_{t-1}$, $q_t=1\Rightarrow I_t=\delta K_{t-1}$ in $q_t<1\Rightarrow I_t<\delta K_{t-1}$. Empirična različica hipoteze je:
+\begin{equation}
+H_3:\quad \frac{\partial I_t}{\partial q_t}>0,
+\qquad
+g_{TFP,t}=\beta_0+\beta_1P^{UI}_{t-k}+\beta_2I_{t-k}+\varepsilon_t,
+\quad k>0.
+\end{equation}
+
+Časovni zamik je pomemben, ker se mora nova tehnologija najprej vključiti v kapital, proizvodne procese in organizacijo podjetij. Ker je empirični del pretežno opisne narave, hipotez ne interpretiramo kot strogo vzročno identificiranih.
 
 \section{Teoretični okvir gospodarske rasti}
 
