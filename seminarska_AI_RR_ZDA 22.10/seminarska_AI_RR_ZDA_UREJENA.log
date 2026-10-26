@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.10)  26 OCT 2026 23:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.10)  26 OCT 2026 23:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1009,17 +1009,12 @@ Overfull \hbox (96.02965pt too wide) in paragraph at lines 239--249
  [][] 
  []
 
-[9] [10] [11{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [12] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 415--416
-
- []
-
-[15]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 433.
+[9] [10] [11{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [12] [13] [14] [15]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 435.
  (C:\Users\tincv\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [16{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [17] [18]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 452.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 454.
  (C:\Users\tincv\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [19] (seminarska_AI_RR_ZDA_UREJENA.aux)
@@ -1042,7 +1037,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,12n,107p,1242b,2324s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (19 pages, 396254 bytes).
+Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (19 pages, 396618 bytes).
 PDF statistics:
  489 PDF objects out of 1000 (max. 8388607)
  80 named destinations out of 1000 (max. 500000)
