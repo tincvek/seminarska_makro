@@ -1,14 +1,14 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'seminarska_AI_RR_ZDA_UREJENA.blg'
-[428] biber-MSWIN64:340> INFO - === 
-[611] Biber.pm:419> INFO - Reading 'seminarska_AI_RR_ZDA_UREJENA.bcf'
-[784] Biber.pm:979> INFO - Found 11 citekeys in bib section 0
-[852] Biber.pm:4419> INFO - Processing section 0
-[900] Biber.pm:4610> INFO - Looking for bibtex file 'viri.bib' for section 0
-[1027] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1062] bibtex.pm:1519> INFO - Found BibTeX data source 'viri.bib'
-[1252] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1252] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1252] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'sl-SI'
-[1380] bbl.pm:660> INFO - Writing 'seminarska_AI_RR_ZDA_UREJENA.bbl' with encoding 'UTF-8'
-[1389] bbl.pm:763> INFO - Output to seminarska_AI_RR_ZDA_UREJENA.bbl
+[326] biber-MSWIN64:340> INFO - === 
+[391] Biber.pm:419> INFO - Reading 'seminarska_AI_RR_ZDA_UREJENA.bcf'
+[533] Biber.pm:979> INFO - Found 11 citekeys in bib section 0
+[584] Biber.pm:4419> INFO - Processing section 0
+[614] Biber.pm:4610> INFO - Looking for bibtex file 'viri.bib' for section 0
+[664] bibtex.pm:1713> INFO - LaTeX decoding ...
+[683] bibtex.pm:1519> INFO - Found BibTeX data source 'viri.bib'
+[796] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'variable = shifted' with 'variable = non-ignorable'
+[796] UCollate.pm:68> INFO - Overriding locale 'sl-SI' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[797] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'sl-SI'
+[846] bbl.pm:660> INFO - Writing 'seminarska_AI_RR_ZDA_UREJENA.bbl' with encoding 'UTF-8'
+[852] bbl.pm:763> INFO - Output to seminarska_AI_RR_ZDA_UREJENA.bbl
