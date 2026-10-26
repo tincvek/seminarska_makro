@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.22)  25 OCT 2026 17:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.22)  26 OCT 2026 08:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1000,56 +1000,50 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write6
 \openout6 = `seminarska_AI_RR_ZDA_UREJENA.toc'.
 
- [2] [3{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [4] [5]
-PGFPlots: reading {podatki_rnd_usa.csv}
- [6]
-Overfull \hbox (0.1555pt too wide) in paragraph at lines 171--172
-\T1/lmr/m/n/12 Bolj ne-po-sre-den ka-zal-nik raz-i-sko-valne de-jav-no-sti na po-dro-£ju UI so fe-de-ralna ne-obrambna
- []
+ [2] [3{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
-[7] [8]
-PGFPlots: reading {podatki_tfp_usa.csv}
+LaTeX Warning: Reference `sec:podatki' on page 4 undefined on input line 99.
 
-Overfull \hbox (96.02965pt too wide) in paragraph at lines 239--249
- [][] 
- []
-
-[9] [10] [11] [12] [13] [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+[4] [5] [6{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-[16]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 471.
+[10]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 281.
  (C:\Users\andra\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [17{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [18]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 490.
+) [11{C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [12] [13]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 300.
  (C:\Users\andra\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [19] (seminarska_AI_RR_ZDA_UREJENA.aux)
+) [14] (seminarska_AI_RR_ZDA_UREJENA.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `seminarska_AI_RR_ZDA_UREJENA.out' has not changed.
-(rerunfilecheck)             Checksum: A584B954EB69185B020D52FAA1E01DE2;6406.
+(rerunfilecheck)             Checksum: AACFEA9AD60D3C2944251557872FC4ED;4477.
 Package logreq Info: Writing requests to 'seminarska_AI_RR_ZDA_UREJENA.run.xml'.
 \openout1 = `seminarska_AI_RR_ZDA_UREJENA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42273 strings out of 467871
- 957386 string characters out of 5418375
- 1855801 words of memory out of 5000000
- 70441 multiletter control sequences out of 15000+600000
- 703830 words of font info for 95 fonts, out of 8000000 for 9000
+ 41878 strings out of 467871
+ 945199 string characters out of 5418375
+ 1851334 words of memory out of 5000000
+ 70082 multiletter control sequences out of 15000+600000
+ 697850 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,118p,1311b,2021s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (19 pages, 381800 bytes).
+ 99i,12n,118p,1311b,2295s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/andra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (14 pages, 361121 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 401 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

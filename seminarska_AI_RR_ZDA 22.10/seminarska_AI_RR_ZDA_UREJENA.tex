@@ -98,288 +98,98 @@ Za odgovor v poglavju~\ref{sec:teorija} opredelimo štiri hipoteze: H1 (UI ne sp
 \subsection{Struktura naloge}
 V poglavju~\ref{sec:podatki} predstavimo uporabljene podatke in analiziramo razvoj izdatkov za R\&R, federalnih vlaganj v UI, UI-patentne aktivnosti ter TFP v ZDA. V poglavju~\ref{sec:teorija} predstavimo teoretični okvir gospodarske rasti, pri čemer se osredotočimo na Solow--Swanov model, računovodstvo gospodarske rasti, teorijo endogene rasti in hipoteze o vlogi UI. V poglavju~\ref{sec:uporaba} napovedi hipotez primerjamo z opaženimi podatki, v poglavju~\ref{sec:zakljucek} pa podamo kritično presojo ugotovitev, izpostavimo omejitve analize in odgovorimo na raziskovalno vprašanje.
 
-\section{Podatkovna analiza}\label{sec:podatki}
-
-V tem poglavju s podatki za ZDA v obdobju 2010--2025 analiziramo povezavo med raziskavami in razvojem (R\&R), umetno inteligenco (UI), ustvarjanjem novega tehnološkega znanja in skupno faktorsko produktivnostjo (TFP). Namen analize je preveriti, ali se je v obdobju hitrega razvoja UI povečal obseg raziskovalnih vložkov, ali je temu sledila večja merljiva inovacijska aktivnost in ali je mogoče podoben vzorec opaziti tudi pri agregatni produktivnosti.
-
-\subsection{Viri podatkov in izbor spremenljivk}
-
-Za analizo uporabimo štiri skupine kazalnikov. Širši obseg raziskovalne dejavnosti merimo s skupnimi izdatki ZDA za R\&R, ki jih objavlja National Center for Science and Engineering Statistics (NCSES). Usmerjenost raziskovalnih sredstev v UI spremljamo s podatki programa Networking and Information Technology Research and Development (NITRD) o federalnih ne-obrambnih izdatkih za UI R\&R. Kot približek ustvarjanju novega tehnološkega znanja uporabimo patentne dokumente, povezane z UI, iz podatkovnega niza USPTO Artificial Intelligence Patent Dataset. Končni makroekonomski kazalnik je rast TFP v zasebnem nekmetijskem poslovnem sektorju, ki jo objavlja U.S. Bureau of Labor Statistics (BLS).
-
-Kazalniki predstavljajo različne stopnje istega procesa: izdatki za R\&R merijo raziskovalne vložke, patentna aktivnost je približek nastajanju formaliziranega tehnološkega znanja, TFP pa meri spremembe učinkovitosti uporabe dela in kapitala na ravni gospodarstva.
-
-\begin{table}[H]
-\centering
-\caption{Kazalniki, uporabljeni v empirični analizi}
-\small
-\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.0cm} >{\raggedright\arraybackslash}X >{\centering\arraybackslash}p{2.4cm} >{\centering\arraybackslash}p{2.2cm}}
-\toprule
-\textbf{Koncept} & \textbf{Kazalnik} & \textbf{Obdobje} & \textbf{Vir} \\
-\midrule
-Splošna vlaganja v R\&R & Izdatki ZDA za R\&R & 2010--2023 & NCSES/NSF \\
-UI-specifični R\&R & Federalni ne-obrambni izdatki za UI R\&R & 2019--2025 & NITRD \\
-Novo tehnološko znanje & UI-patenti oziroma patentni dokumenti & 2010--2023 & USPTO \\
-Produktivnost & Rast TFP v zasebnem nekmetijskem poslovnem sektorju & 2010--2025 & BLS \\
-\bottomrule
-\end{tabularx}
-\end{table}
-
-\subsection{Metoda analize}
-
-Empirični del temelji na opisni analizi časovnih vrst. Pri posameznem kazalniku najprej prikažemo njegovo gibanje skozi čas, nato pa primerjamo obdobja 2010--2014, 2015--2019 in 2020--2025. Ker vse serije ne pokrivajo celotnega obdobja, uporabimo pri posameznem kazalniku samo leta, za katera so na voljo primerljivi uradni podatki. Manjkajočih vrednosti ne interpoliramo.
-
-Pri denarnih spremenljivkah razlikujemo med nominalnimi in realnimi vrednostmi. Skupni ameriški izdatki za R\&R so v osnovnem prikazu izraženi v tekočih dolarjih, zato njihove rasti ni mogoče v celoti pripisati povečanju realnega obsega raziskovalne dejavnosti. Pri interpretaciji zato upoštevamo tudi realne stopnje rasti in delež izdatkov za R\&R v BDP.
-
-Analiza poteka v treh korakih. Najprej obravnavamo skupne in UI-specifične raziskovalne vložke, nato patentno aktivnost kot približek ustvarjanju novega znanja in nazadnje gibanje TFP. Učinki nove tehnologije na agregatno produktivnost se lahko pojavijo z zamikom, saj njena uvedba zahteva dodatne investicije, organizacijske spremembe in učenje. Opisna analiza zato omogoča preverjanje časovnega zaporedja in skladnosti podatkov s teoretičnim mehanizmom, ne omogoča pa dokazovanja vzročnosti. Rezultate razumemo kot opisno preverjanje povezav in ne kot oceno čistega vzročnega učinka UI na TFP.
-
-\subsection{Razvoj izdatkov za raziskave in razvoj}
-
-NCSES poroča o skupnih ameriških izdatkih za R\&R po sektorjih. Za analizo uporabimo uradno časovno serijo za obdobje 2010--2023 \parencite{ncses2026}.
-
-\begin{figure}[H]
-\centering
-\begin{tikzpicture}
-\begin{axis}[
-    width=0.94\textwidth,
-    height=7cm,
-    xlabel={Leto},
-    ylabel={Izdatki za R\&R (mio USD)},
-    grid=major,
-    xtick=data,
-    xticklabel={\pgfmathprintnumber[fixed,precision=0,1000 sep={}]{\tick}},
-    xticklabel style={rotate=45,anchor=east},
-    scaled y ticks=false,
-    tick label style={/pgf/number format/fixed},
-    y tick label style={/pgf/number format/1000 sep={\,}}
-]
-\addplot+[mark=*] table[x=leto,y=skupaj_mio_usd,col sep=comma]{podatki_rnd_usa.csv};
-\end{axis}
-\end{tikzpicture}
-\caption{Skupni izdatki za R\&R v ZDA, 2010--2023}
-\caption*{\footnotesize Vir: NCSES/NSF; lastna priprava.}
-\label{fig:rnd}
-\end{figure}
-
-Podatki kažejo izrazito povečanje nominalnih ameriških izdatkov za R\&R. Skupni izdatki vseh izvajalskih sektorjev so se povečali s približno 406,6 milijarde USD leta 2010 na približno 937 milijarde USD leta 2023 \parencite{ncses2026}. To pomeni več kot podvojitev nominalne vrednosti v trinajstih letih. Ker gre za tekoče dolarje, del rasti odraža rast cen, zato nominalnega povečanja ne smemo enačiti z realnim povečanjem količine raziskovalne dejavnosti.
-
-Tudi realni podatki kažejo, da rast ni posledica zgolj inflacije. NCSES za obdobje 2013--2023 poroča približno 4,8-odstotno povprečno letno realno rast skupnih izdatkov za R\&R, merjeno v konstantnih dolarjih. Hkrati se je povečala intenzivnost R\&R: delež izdatkov za R\&R je bil od leta 2019 nad 3~\%, leta 2023 pa je znašal približno 3,39~\% \parencite{ncses2026}. Raziskovalna dejavnost je torej rasla hitreje kot gospodarstvo kot celota.
-
-Glavnino ameriškega R\&R je izvajal in financiral poslovni sektor. To je skladno z endogeno teorijo rasti, v kateri podjetja vlagajo v ustvarjanje novega znanja zaradi pričakovanih prihodnjih donosov. Sam trend skupnih izdatkov še ne pove, kolikšen del dodatnega raziskovanja je neposredno povezan z UI, kaže pa na širitev raziskovalne osnove za inoviranje.
-
-\subsection{Federalna vlaganja v UI R\&R}
-
-Bolj neposreden kazalnik raziskovalne dejavnosti na področju UI so federalna ne-obrambna vlaganja v UI R\&R, ki jih objavlja NITRD \parencite{nitrd2025}. Pri teh podatkih je treba razlikovati med dejansko porabo, odobrenimi sredstvi in proračunskimi zahtevami.
-
-NITRD razlikuje med postavko \emph{Core UI} in širšim seštevkom UI R\&R. \emph{Core UI} zajema raziskave, pri katerih je UI neposredni predmet, na primer strojno učenje, računalniški vid, jezikovni algoritmi in arhitekture nevronskih mrež. Širši seštevek vključuje tudi dejavnosti, evidentirane na drugih programskih področjih, vendar z pomembno komponento UI \parencite{nitrd2025}.
-
-\begin{table}[H]
-\centering
-\caption{Federalni UI R\&R -- izbrana leta}
-\begin{tabular}{lrr}
-\toprule
-\textbf{Fiskalno leto} & \textbf{Core UI (mio USD)} & \textbf{Skupaj (mio USD)} \\
-\midrule
-FY2023 dejansko & 1.914,2 & 3.121,9 \\
-FY2024 odobreno & 1.789,0 & 2.977,5 \\
-FY2025 zahteva & 1.954,5 & 3.316,1 \\
-\bottomrule
-\end{tabular}
-\caption*{\footnotesize Vir: NITRD; lastna priprava.}
-\label{tab:UI-rd}
-\end{table}
-
-V FY2023 je ne-obrambna federalna poraba za UI R\&R znašala približno 3,12 milijarde USD, od tega 1,91 milijarde USD za \emph{Core UI}. Za FY2024 je bilo odobrenih približno 2,98 milijarde USD, proračunska zahteva za FY2025 pa je znašala približno 3,32 milijarde USD. Če bi bila zahteva za FY2025 v celoti realizirana, bi to pomenilo približno 11,4-odstotno povečanje glede na odobreno raven FY2024. Podatka za FY2025 zato ne interpretiramo kot že realizirano porabo.
-
-Podatki od FY2019 naprej kažejo, da je UI postala pomembno področje federalnega financiranja raziskav. V kombinaciji z rastjo skupnih ameriških izdatkov za R\&R to kaže na povečanje raziskovalnih vložkov, povezanih tako s širšo raziskovalno dejavnostjo kot posebej z razvojem UI.
-
-\subsection{Ustvarjanje novega znanja: UI-patenti}
-
-USPTO Artificial Intelligence Patent Dataset omogoča identifikacijo patentnih dokumentov, povezanih z UI, do leta 2023 \parencite{uspto2025aipd}. Posodobljeni podatkovni niz zajema 15,4 milijona patentnih dokumentov, objavljenih do leta 2023, in jih razvršča glede na verjetnost, da vsebujejo tehnologijo UI.
-
-Patentni dokumenti niso popolna mera inovacij. Vsa nova znanja niso patentirana, podjetja lahko inovacije varujejo s poslovnimi skrivnostmi, posamezni patenti pa se močno razlikujejo po tehnološkem in gospodarskem pomenu. Število patentnih dokumentov zato razumemo kot približek intenzivnosti formalizirane izumiteljske dejavnosti.
-
-Posodobitev podatkovnega niza kaže dolgoročno rast števila patentnih dokumentov, ki jih model prepozna kot povezane z UI. Leta 2023 je bilo pri 50-odstotnem klasifikacijskem pragu prepoznanih nekaj več kot 210.000 takšnih dokumentov \parencite{uspto2025aipd}. Razvoj je skladen z rastjo raziskovalnih aktivnosti, vendar iz razpoložljivih podatkov ni mogoče oblikovati enotne agregirane letne serije. Zato letnega grafa patentov ne prikazujemo, da ne bi ustvarili navidezne natančnosti.
-
-\subsection{Razvoj skupne faktorske produktivnosti}
-
-BLS definira TFP kot razmerje med indeksom realnega outputa in indeksom kombiniranih vložkov dela in kapitala. Za leto 2025 BLS poroča o 0,8-odstotni rasti TFP v zasebnem nekmetijskem poslovnem sektorju \parencite{bls2026tfp}.
-
-Gibanje TFP je precej bolj volatilno kot gibanje izdatkov za R\&R. V obdobju 2010--2019 so se letne stopnje rasti večinoma gibale blizu ničle oziroma okoli enega odstotka. Pandemsko obdobje je povzročilo velika nihanja: po padcu leta 2020 je leta 2021 sledil močan skok, nato padec leta 2022, v letih 2023 in 2024 pa ponovno povečanje. Leta 2025 je BLS poročal o 0,8-odstotni rasti.
-
-Povprečna letna rast TFP je znašala približno 0,80~\% v letih 2010--2014, 0,64~\% v letih 2015--2019 in 1,00~\% v obdobju 2020--2025. Zadnje povprečje je treba interpretirati previdno, ker ga močno določajo pandemska nihanja. BLS za poslovni cikel 2019--2025 ocenjuje približno 1,0-odstotno povprečno letno rast TFP, za cikel 2007--2019 pa približno 0,6~\%. To je skladno z možnostjo določenega pospeška produktivnosti, vendar samo časovno sovpadanje ne dokazuje, da je bil vzrok UI. V istem obdobju so se spreminjali struktura dela, kapitalske investicije, dobavne verige, fiskalna politika in drugi dejavniki.
-
-\begin{figure}[H]
-\centering
-\begin{tikzpicture}
-\begin{axis}[
-    width=0.94\textwidth,
-    height=7cm,
-    xlabel={Leto},
-    ylabel={Rast TFP (\%)},
-    grid=major,
-    xtick=data,
-    xticklabel style={rotate=45,anchor=east},
-    scaled y ticks=false
-]
-\addplot+[mark=*] table[x=leto,y=tfp_rast,col sep=comma]{podatki_tfp_usa.csv};
-\end{axis}
-\end{tikzpicture}
-\caption{Letna rast TFP v zasebnem nekmetijskem poslovnem sektorju ZDA, 2010--2025}
-\caption*{\footnotesize Vir: BLS; lastna priprava.}
-\label{fig:tfp}
-\end{figure}
-
-\subsection{Primerjava UI-kazalnikov, inovacij in TFP}
-
-Primerjava kaže najjasnejšo rast raziskovalnih vložkov in UI-povezane patentne aktivnosti. Skupni ameriški izdatki za R\&R so se v analiziranem obdobju močno povečali, po letu 2019 pa so večmilijardne ravni dosegla tudi federalna vlaganja v UI R\&R. Pri TFP je slika manj enotna: rast je bila pozitivna, vendar volatilna in občutljiva na pandemske ter druge makroekonomske šoke.
-
-\begin{table}[H]
-\centering
-\caption{Primerjava glavnih kazalnikov po podobdobjih}
-\begin{tabular}{p{5.0cm}ccc}
-\toprule
-\textbf{Kazalnik} & \textbf{2010--2014} & \textbf{2015--2019} & \textbf{2020--2025} \\
-\midrule
-Nominalni CAGR R\&R & 4,0~\% & 7,7~\% & 9,5~\% (2020--2023) \\
-Federalni UI R\&R & brez primerljive serije & začetek serije FY2019 & rast do večmilijardne ravni \\
-UI-patentni dokumenti & rast & hitrejša rast & visoka raven do 2023 \\
-Povprečna rast TFP & 0,80~\% & 0,64~\% & 1,00~\% \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Podatki kažejo povečanje raziskovalnih vložkov in inovacijske aktivnosti, medtem ko je razvoj agregatne TFP manj enakomeren. Iz časovnega sovpadanja ne moremo sklepati, da je rast UI povzročila rast produktivnosti. Teoretični okvir v naslednjem poglavju pojasni, kako se raziskovalni vložki in nastajanje novega znanja lahko povežejo z dolgoročno gospodarsko rastjo.
-
-\subsection{Raziskovalne hipoteze}
-
-Hipoteze so oblikovane kot preverljive povezave med UI, investicijami, akumulacijo kapitala in TFP. Ker razpoložljivi podatki ne vsebujejo vseh spremenljivk iz investicijskega modela, jih v tem poglavju preverjamo predvsem opisno. Oznako $A_t$ uporabljamo enotno za agregatno tehnologijo oziroma produktivnost, medtem ko UI označuje umetno inteligenco.
-
-\paragraph{H1:} UI-vložki in UI-povezana inovacijska aktivnost niso sistematično povezani z investicijami, akumulacijo kapitala ali rastjo TFP. V regresijski obliki:
-\begin{equation}
-H_0:\quad \beta_{UI}=\beta_{P}=0,
-\end{equation}
-\begin{equation}
-g_{TFP,t}=\beta_0+\beta_{UI}UI\text{-}R\&R_t+\beta_P P^{UI}_t+\beta_X X_t+\varepsilon_t.
-\end{equation}
-
-\paragraph{H2:} Večji UI- in splošni raziskovalni vložki so povezani z večjo UI-povezano inovacijsko aktivnostjo:
-\begin{equation}
-H_1:\quad \gamma_1>0,
-\end{equation}
-\begin{equation}
-P^{UI}_t=\gamma_0+\gamma_1 UI\text{-}R\&R_t+\gamma_2 R\&R_t+u_t.
-\end{equation}
-Ker zapiski opozarjajo, da standardno merjene bruto investicije ne zajamejo vseh izdatkov za R\&R, hipotezo merimo predvsem s patentno aktivnostjo in širšimi izdatki za R\&R.
-
-\paragraph{3:} Povečanje neto investicij povečuje obseg kapitala in s tem proizvodni potencial. Hipoteza neposredno sledi enačbam iz zapiskov:
-\begin{equation}
-I_t=NI_t+\delta K_{t-1},
-\end{equation}
-\begin{equation}
-K_t=(1-\delta)K_{t-1}+I_t,
-\qquad K_t-K_{t-1}=NI_t.
-\end{equation}
-Zato velja $\partial K_t/\partial NI_t>0$. Morebitni učinek UI na TFP je lahko posredovan prek investicij v opremo, programsko opremo, organizacijske spremembe in druge oblike kapitala.
-
-\paragraph{H4:} Investicije se postopoma prilagajajo želenemu obsegu kapitala; višja vrednost kapitala oziroma Tobinovega $q$ povečuje investicije, učinek na TFP pa se pojavi z zamikom. Iz modela fleksibilnega akceleratorja sledi:
-\begin{equation}
-K_t-K_{t-1}=\lambda(K_t^*-K_{t-1}),
-\qquad 0<\lambda\leq 1,
-\end{equation}
-\begin{equation}
-I_t=\lambda(K_t^*-K_{t-1})+\delta K_{t-1}.
-\end{equation}
-V q-teoriji je osnovni pogoj:
-\begin{equation}
-p_{K,t}(q_t-1)=C'_I(I_t,K_t),
-\qquad q_t=\frac{\nu_t}{p_{K,t}},
-\end{equation}
-pri čemer je $\nu_t$ mejna vrednost enote kapitala. Pri kvadratnih stroških prilagajanja velja $q_t>1\Rightarrow I_t>\delta K_{t-1}$, $q_t=1\Rightarrow I_t=\delta K_{t-1}$ in $q_t<1\Rightarrow I_t<\delta K_{t-1}$. Empirična različica hipoteze je:
-\begin{equation}
-H_3:\quad \frac{\partial I_t}{\partial q_t}>0,
-\qquad
-g_{TFP,t}=\beta_0+\beta_1P^{UI}_{t-k}+\beta_2I_{t-k}+\varepsilon_t,
-\quad k>0.
-\end{equation}
-
-Časovni zamik je pomemben, ker se mora nova tehnologija najprej vključiti v kapital, proizvodne procese in organizacijo podjetij. Ker je empirični del pretežno opisne narave, hipotez ne interpretiramo kot strogo vzročno identificiranih.
-
 \section{Teoretični okvir gospodarske rasti}\label{sec:teorija}
+Poglavje predstavi, kaj teorija pove o virih dolgoročne rasti, kako se TFP meri in kako lahko UI vstopi v modele rasti. Iz tega izpeljemo štiri hipoteze H1--H4, ki jih v poglavju~\ref{sec:uporaba} primerjamo s podatki.
 
-\subsection{Viri dolgoročne gospodarske rasti}
-Dolgoročno rast lahko razlagamo z dvema širšima skupinama mehanizmov. Prvi poudarja akumulacijo proizvodnih faktorjev, predvsem fizičnega in človeškega kapitala, drugi pa rast skupne faktorske produktivnosti. Profesorjevi zapiski izrecno ločujejo med teorijami, ki rast pojasnjujejo z večjo količino proizvodnih faktorjev, in teorijami, ki poudarjajo TFP, torej tehnologijo, organizacijo in druge dejavnike, zaradi katerih enaka količina inputov ustvari več outputa \parencite{polanec_rast}.
+\subsection{Viri dolgoročne rasti}\label{sec:viri}
+Dolgoročno rast lahko razlagamo z akumulacijo proizvodnih dejavnikov, predvsem fizičnega in človeškega kapitala, ali z rastjo skupne faktorske produktivnosti (TFP). Ta po zapiskih odraža novo tehnologijo, pa tudi institucije, delež države v BDP in odprtost mednarodni trgovini \parencite[str.~8]{polanec_rast}. Učbenik med dejavniki produktivnosti našteva izobrazbo, institucije, finančni sistem, trgovino in infrastrukturo \parencite[str.~144--145]{garin2021}. Gibanja TFP zato ni mogoče samodejno pripisati eni sami tehnologiji; to omejitev upoštevamo pri preizkusu hipotez. Človeški kapital je znanje, utelešeno v delavcih, tehnologija pa je v zapiskih opisana kot načrt (angl.~\emph{blueprint}), torej zapis, kako se proizvod proizvaja \parencite[str.~21]{polanec_rast}.
 
-Fizični kapital vključuje stroje, opremo, infrastrukturo in druge proizvedene dobrine, ki se uporabljajo pri proizvodnji. Delo predstavlja količino delovnega inputa, človeški kapital pa znanje, izobrazbo, sposobnosti in izkušnje, ki so utelešene v delavcih. Tehnologija je drugačna od človeškega kapitala: v profesorjevih zapiskih je opisana kot ``matrica'' oziroma zapis, kako se določen proizvod proizvaja. Prav ta razlika je pomembna za inovacije, saj se lahko tehnološko znanje širi med podjetji in sektorji ter tako vpliva na produktivnost tudi zunaj podjetja, ki ga je ustvarilo.
-
-Splošno agregatno produkcijsko funkcijo lahko zapišemo kot
-\begin{equation}
+\subsection{Solow--Swanov model}\label{sec:solow}
+Model ima dva proizvodna faktorja, kapital $K$ in delo $L$, ter eno homogeno dobrino, ki se lahko potroši ali investira. Gospodarstvo je zaprto, zato so investicije enake varčevanju \parencite[str.~9]{polanec_rast}. Produkcijska funkcija je
+\begin{equation}\label{eq:prod}
 Y(t)=F\left[K(t),A(t)L(t)\right],
 \end{equation}
-kjer je $Y$ agregatna proizvodnja, $K$ fizični kapital, $L$ delo in $A$ raven tehnologije.
-
-\subsection{Solow--Swanov model}
-Solow--Swanov model je osnovni neoklasični model gospodarske rasti. V najpreprostejši različici ima gospodarstvo dva proizvodna faktorja, kapital $K$ in delo $L$, ter raven tehnologije $A$. Predpostavlja se ena homogena dobrina, ki se lahko potroši ali investira, zaprto gospodarstvo, v katerem so investicije enake varčevanju, eksogeno dana stopnja varčevanja $s$, konstantna stopnja amortizacije $\delta$, eksogena rast prebivalstva po stopnji $n$ in eksogena rast tehnologije po stopnji $x$ \parencite{polanec_rast}. Produkcijska funkcija ima konstantne donose obsega in padajoče mejne donose kapitala.
-
-V neoklasični specifikaciji tehnologija in delo vstopata multiplikativno kot $A(t)L(t)$. Produkt $AL$ imenujemo efektivno oziroma učinkovito delo. Rast $A$ pomeni, da je vsaka enota dela zaradi tehnološkega napredka učinkovitejša. Zato model analiziramo v spremenljivkah na enoto efektivnega dela. Kapital na enoto efektivnega dela je
-\begin{equation}
-k(t)=\frac{K(t)}{A(t)L(t)}.
+kjer je $A$ delo povečujoča tehnologija, $AL$ pa efektivno delo \parencite[str.~10]{polanec_rast}; učbenik jo označuje z $Z_t$ \parencite[str.~108--109]{garin2021}. Funkcija ima konstantne donose obsega in padajoče mejne donose posameznega faktorja \parencites[str.~10--11]{polanec_rast}[str.~109]{garin2021}. Kapital se kopiči iz varčevanja s stopnjo $s$ in se amortizira s stopnjo $\delta$, delo raste po stopnji $n$, tehnologija po stopnji $x$ \parencite[str.~10]{polanec_rast}:
+\begin{equation}\label{eq:akum}
+\dot K(t)=sY(t)-\delta K(t),\qquad \frac{\dot L(t)}{L(t)}=n,\qquad \frac{\dot A(t)}{A(t)}=x.
 \end{equation}
-
-Dinamika kapitala na enoto efektivnega dela je
-\begin{equation}
-\dot{k}(t)=s f(k(t))-(n+x+\delta)k(t),
+Zaradi konstantnih donosov lahko output na enoto efektivnega dela zapišemo kot $y=f(k)$, kjer je $k=K/(AL)$ kapital na enoto efektivnega dela, $f(k)=F(k,1)$ pa izpolnjuje $f(0)=0$, $f'(k)>0$, $f''(k)<0$ in Inadine pogoje \parencite[str.~11--12]{polanec_rast}. Dinamika kapitala je
+\begin{equation}\label{eq:k}
+\dot k(t)=s f\bigl(k(t)\bigr)-(n+x+\delta)\,k(t),
 \end{equation}
-kjer je $s$ stopnja varčevanja, $n$ stopnja rasti prebivalstva, $x$ stopnja tehnološkega napredka in $\delta$ stopnja amortizacije.
+v ustaljenem stanju pa so dejanske investicije enake nadomestitvenim, $s f(k^*)=(n+x+\delta)k^*$ \parencite[str.~12--13]{polanec_rast}.
 
-V ustaljenem stanju velja
-\begin{equation}
-s f(k^*)=(n+x+\delta)k^*.
+V ustaljenem stanju output na delavca raste po stopnji $x$, agregatni output pa po stopnji $x+n$ \parencites[str.~13]{polanec_rast}[str.~130]{garin2021}. Višja stopnja varčevanja dvigne raven kapitala in outputa, ne pa trajne stopnje rasti \parencites[str.~13--14]{polanec_rast}[str.~108]{garin2021}. Ker je $x$ v modelu dan od zunaj, model ne pojasni izvora rasti \parencites[str.~18]{polanec_rast}[str.~129]{garin2021}.
+
+Za nalogo je pomembno, kaj model napove, če UI poveča $x$ (hipoteza H2). Za Cobb--Douglasovo funkcijo $f(k)=k^{\alpha}$, kjer je $\alpha$ delež kapitala v dohodku (po zapiskih okoli 1/3, po učbeniku za ZDA okoli 0,35) \parencites[str.~9,~23]{polanec_rast}[str.~63]{garin2021}, je rast agregatnega outputa
+\begin{equation}\label{eq:gY}
+g_Y=\alpha\left(\frac{s f(k)}{k}-\delta\right)+(1-\alpha)(n+x)
 \end{equation}
+\parencite[str.~14]{polanec_rast}. Če gospodarstvo izhaja iz ustaljenega stanja in se $x$ poveča za $\Delta x$, se kapital na enoto efektivnega dela začne zmanjševati, zato rast outputa na enoto efektivnega dela rahlo upade \parencite[str.~14--15]{polanec_rast}. Rast agregatnega outputa pa v trenutku spremembe poskoči za $(1-\alpha)\Delta x$ in nato postopoma doseže novo dolgoročno raven, ki je za $\Delta x$ višja od prejšnje (lastna izpeljava iz enačbe~\eqref{eq:gY}).
 
-Ustaljeno stanje je doseženo, ko se kapital na enoto efektivnega dela ne spreminja, torej ko so dejanske investicije $s f(k)$ enake nadomestitvenim investicijam $(n+x+\delta)k$. Če je dejanskih investicij več, $k$ raste; če jih je manj, $k$ pada. Povečanje stopnje varčevanja zato zviša ravnotežno raven kapitala in outputa na efektivno delo, vendar ne zviša trajne dolgoročne stopnje rasti outputa na delavca. Po prehodnem obdobju se gospodarstvo ustali v novem ravnotežju.
-
-Najpomembnejši rezultat za našo nalogo je, da je v ustaljenem stanju rast outputa na delavca enaka eksogeni stopnji tehnološkega napredka $x$. Solow--Swanov model tako dobro pokaže, zakaj je tehnologija potrebna za trajno rast življenjskega standarda, ne pojasni pa, od kod tehnološki napredek prihaja. Profesorjevi zapiski prav to izpostavljajo kot osrednjo omejitev modela: Solowov rezidual, ki predstavlja velik del gospodarske rasti, je v modelu dan od zunaj \parencite{polanec_rast}.
-
-\subsection{Računovodstvo gospodarske rasti in TFP}
-Računovodstvo gospodarske rasti je empirična metoda, s katero rast proizvodnje razdelimo na prispevke rasti merljivih inputov in preostanek, ki ga pripišemo skupni faktorski produktivnosti. Profesorjevi zapiski poudarjajo, da tehnologije ne moremo neposredno izmeriti, zato TFP ocenimo rezidualno: od rasti outputa odštejemo del, ki ga lahko pojasnimo z rastjo kapitala in dela \parencite{polanec_rast}. Pri Cobb--Douglasovi produkcijski funkciji dobimo
-\begin{equation}
-g_Y=g_A+\alpha g_K+(1-\alpha)g_L,
+\subsection{Računovodstvo rasti in TFP}\label{sec:racunovodstvo}
+Računovodstvo rasti razdeli rast BDP na prispevke merljivih inputov in preostanek, ki ga pripišemo TFP. Ker tehnologije ne moremo meriti neposredno, TFP ocenimo rezidualno \parencite[str.~22]{polanec_rast}. Naj bo $T$ raven TFP in $Y=T\,K^{\alpha}L^{1-\alpha}$ \parencite[str.~142]{garin2021}. Potem velja
+\begin{equation}\label{eq:racrasti}
+g_Y=g_T+\alpha g_K+(1-\alpha)g_L,\qquad g_T=g_Y-\alpha g_K-(1-\alpha)g_L
 \end{equation}
-zato je ocenjena rast TFP
-\begin{equation}
-g_A=g_Y-\alpha g_K-(1-\alpha)g_L.
+\parencite[str.~23]{polanec_rast}. Zapiski rast TFP označujejo z isto črko $x$ kot rast tehnologije, vendar se obe ujemata le pri tej obliki funkcije. Pri delo povečujoči tehnologiji iz enačbe~\eqref{eq:prod} je $K^{\alpha}(AL)^{1-\alpha}=A^{1-\alpha}K^{\alpha}L^{1-\alpha}$, zato je $g_T=(1-\alpha)x$ (lastna izpeljava).
+
+Ker je TFP ostanek, vsebuje tudi napake merjenja kakovosti dela in kapitala, zato lahko njen delež v rasti precenimo \parencite[str.~23--24]{polanec_rast}. Zapiski opozarjajo še, da višja TFP poveča mejni produkt kapitala in s tem spodbudi investicije, zato rast kapitala ni nujno vzrok rasti \parencite[str.~24]{polanec_rast}. V empiričnem delu uporabimo uradno serijo BLS za zasebni ne-kmetijski poslovni sektor, ki TFP izračuna kot razmerje med indeksom realnega outputa in indeksom kombiniranih inputov \parencite{bls2026tfp}.
+
+\subsection{Endogena rast in vloga R\&R}\label{sec:endogena}
+Ker Solow--Swanov model rast tehnologije privzame, jo endogena teorija poskuša pojasniti. Ustvarjanje tehnologije je podobno kot kapital povezano s stroški, ki jih podjetja krijejo iz prihodnjih dobičkov \parencite[str.~18]{polanec_rast}. Najpreprostejši endogeni model je AK model, $Y=AK$, v katerem kapital (v širšem smislu, vključno s človeškim) nima padajočih donosov, $A$ pa je tehnološka konstanta \parencite[str.~19]{polanec_rast}. Rast dohodka na osebo je tedaj
+\begin{equation}\label{eq:AK}
+g_y=sA-(n+\delta)
 \end{equation}
+in je določena s parametri modela, ne z začetno ravnjo dohodka \parencite[str.~19--20]{polanec_rast}.
 
-TFP zato ni ``čista'' mera tehnologije. V rezidual se lahko vključijo organizacijske izboljšave, učinkovitejša alokacija virov, ekonomije obsega, institucionalne spremembe in tudi napake pri merjenju inputov. Če denimo rast kakovosti dela zaradi izobrazbe ali izkušenj ni pravilno zajeta, bo del učinka napačno pripisan TFP. Podobno velja za kakovost kapitala in tehnološki napredek, utelešen v novi opremi. Zapiski opozarjajo tudi na problem vzročnosti: višja TFP lahko sama poveča donosnost kapitala in s tem spodbudi dodatne investicije, zato ni vedno smiselno strogo ločevati kapitala kot ``vzroka'' in TFP kot ločenega preostanka.
-
-V empiričnem delu zato TFP interpretiramo previdno. Uporabimo uradno serijo BLS za zasebni ne-kmetijski poslovni sektor, ki TFP izračuna kot razmerje med indeksom realnega outputa in indeksom kombiniranih inputov dela in kapitala \parencite{bls2026tfp}. S tem ohranimo enotno sektorsko definicijo skozi celotno analizo.
-
-\subsection{Endogena rast, raziskave in razvoj ter umetna inteligenca}
-Glavna pomanjkljivost Solow--Swanovega modela je, da dolgoročno rast tehnologije vzame kot eksogeno. Teorija endogene rasti zato poskuša pojasniti, zakaj se tehnologija in znanje razvijata. Profesorjevi zapiski nastanek te smeri povezujejo z nezadovoljstvom nad modeli, v katerih je dolgoročna rast določena zunaj modela. Romerjev pristop izpostavlja akumulacijo znanja, pozitivne eksternalije ter dejstvo, da lahko raziskovalna aktivnost posameznega podjetja poveča tudi širši družbeni fond znanja \parencite{polanec_rast,romer1986}.
-
-Pomembna lastnost znanja je, da je deloma nerivalno. Ko je nova ideja, algoritem ali proizvodni postopek enkrat odkrit, ga lahko ob ustreznih pogojih uporablja več gospodarskih subjektov hkrati. Prav zato lahko nastanejo prelivanja znanja: zasebni donos inovatorja je manjši od celotnega družbenega donosa. Profesorjevi zapiski pri R\&R poudarjajo, da so bile ocenjene družbene stopnje donosa na raziskave in razvoj višje od zasebnih, kar je skladno z obstojem pozitivnih eksternalij.
-
-V Romerjevem modelu iz leta 1990 podjetja vlagajo v R\&R, da bi razvila nove proizvode oziroma nove ``načrte'' proizvodnje. Patent začasno zaščiti rezultat raziskovanja in inovatorju omogoči monopolni dobiček. Pričakovani prihodnji dobički so zato spodbuda za današnje raziskovalne stroške: podjetje primerja strošek inovacije z diskontirano vrednostjo prihodnjih donosov \parencite{polanec_rast,romer1990}. Hkrati preteklo znanje olajša nadaljnje raziskovanje, kar je v zapiskih opisano kot učinek ``stati na ramenih velikanov''. Nasprotno pa večje število inovatorjev krepi konkurenco in zmanjšuje rente posameznega inovatorja. Dolgoročna rast je rezultat ravnotežja teh sil.
-
-Za našo temo lahko umetno inteligenco interpretiramo kot input v raziskovalni proces. Če UI raziskovalcem omogoči hitrejšo obdelavo literature in podatkov, avtomatizacijo rutinskih nalog, simuliranje rešitev ali učinkovitejše programiranje, se lahko ob isti količini dela in kapitala v R\&R ustvari več novega znanja. V jeziku endogene teorije rasti bi to pomenilo večjo produktivnost raziskovalnega sektorja. Patentna aktivnost je eden od možnih merljivih rezultatov tega procesa, čeprav ne zajema vseh inovacij.
-
-Posebej pomemben je koncept splošnonamenske tehnologije. Profesorjevi zapiski navajajo motor, elektriko in računalnik kot primere tehnologij s široko uporabo ter poudarjajo, da je njihova rastna pot lahko neenakomerna: najprej se pojavijo stroški učenja, namestitve in razvoja komplementarnih inputov, šele nato hitrejša rast \parencite{polanec_rast,bresnahan1995}. Umetna inteligenca ima podobne značilnosti široke uporabe v različnih dejavnostih, zato je smiselno pričakovati, da se učinek hitro rastočih UI-vlaganj na agregatno TFP pokaže z zamikom.
-
-Konceptualno povezavo lahko prikažemo kot
-\begin{equation}
-\begin{aligned}
-\text{UI} &\longrightarrow \text{večja produktivnost R\&R}
-\longrightarrow \text{več novega znanja}\\
-&\longrightarrow \text{višja TFP}
-\longrightarrow \text{višja dolgoročna rast}.
-\end{aligned}
+Za R\&R je pomembnejša različica z eksternalijami znanja \parencites[str.~25--27]{polanec_rast}{romer1986}. Naj bo $h$ znanje podjetja, $\bar h$ povprečno znanje v gospodarstvu in $l$ delo. Podjetje $i$ proizvaja
+\begin{equation}\label{eq:romer}
+y_i=\bar h^{\beta}\,h_i^{\varphi}\,l_i^{1-\varphi},
 \end{equation}
+pri čemer smo eksponent lastnega znanja označili s $\varphi$ namesto z $\alpha$ kot v zapiskih, da ga ne zamenjamo z deležem kapitala. Podjetja ostajajo konkurenčna, eksternalija pa nastane prek $\bar h$ \parencite[str.~26]{polanec_rast}. Znanje se kopiči iz investicij, $h_{t+1}=h_t+s\,y_t$ (brez amortizacije), zato je pri enakih podjetjih ($h_i=\bar h=h$) stopnja rasti znanja
+\begin{equation}\label{eq:gamma}
+\gamma_t=s\,h_t^{\varphi+\beta-1}\,l^{1-\varphi}.
+\end{equation}
+Če je $\varphi+\beta=1$, je rast konstantna, če je $\varphi+\beta>1$, rast narašča \parencite[str.~26--27]{polanec_rast}. Če je $\varphi+\beta<1$, rast z akumulacijo znanja upada (lastna izpeljava iz enačbe~\eqref{eq:gamma}).
 
+V Romerjevem modelu iz leta 1990 podjetja vlagajo v R\&R, ker jim patent prinese začasen monopolni dobiček, ki krije stroške inovacije. Preteklo znanje olajša nadaljnje raziskovanje (učinek ``stati na ramenih velikanov''), večje število inovatorjev pa krepi konkurenco in zmanjšuje rente; dolgoročna rast je rezultat ravnotežja teh sil \parencites[str.~27--28]{polanec_rast}{romer1990}. Zapiski navajajo, da so bile družbene stopnje donosa na R\&R višje od zasebnih in da naj bi R\&R pojasnile do 66~\% rasti TFP \parencite[str.~27--28]{polanec_rast}. Poleg tega imajo splošnonamenske tehnologije neenakomerno rastno pot: najprej stroški učenja in komplementarnih investicij, šele nato hitrejša rast \parencites[str.~28]{polanec_rast}{bresnahan1995}.
 
-% =================================================
+\subsection{Umetna inteligenca v modelih rasti: hipoteze}\label{sec:hipoteze}
+Nobeden od predstavljenih modelov UI neposredno ne obravnava, zato povezavo izpeljemo z interpretacijo. Aghion, Jones in Jones UI modelirajo kot najnovejšo obliko avtomatizacije \parencite{aghion2019ai}. V naši nalogi UI nastopa kot dejavnik, ki lahko deluje na različne člene verige na sliki~\ref{fig:veriga}. Glede na to, kateri parameter modelov se spremeni, dobimo štiri hipoteze v preglednici~\ref{tab:hipoteze}.
 
-Na podlagi tega teoretičnega okvira lahko podatke iz prejšnjega poglavja razumemo kot različne člene istega mehanizma: vlaganja v R\&R povečujejo raziskovalne inpute, nova znanja in inovacije predstavljajo rezultat raziskovalnega procesa, morebitni dolgoročni učinek pa naj bi se pokazal v višji produktivnosti. V naslednjem poglavju ta mehanizem neposredno povežemo z ugotovitvami za ZDA.
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[every node/.style={draw, rounded corners=2pt, align=center, font=\footnotesize, text width=2.35cm, minimum height=1cm, inner sep=3pt}]
+\node (a) at (0,0) {UI};
+\node (b) at (3.15,0) {večja produktivnost R\&R};
+\node (c) at (6.3,0) {več novega znanja};
+\node (d) at (9.45,0) {višja TFP};
+\node (e) at (12.6,0) {višja dolgoročna rast};
+\foreach \i/\j in {a/b,b/c,c/d,d/e} \draw[->] (\i) -- (\j);
+\end{tikzpicture}
+\caption{Vzročna veriga, ki jo preizkušamo}\label{fig:veriga}
+\end{figure}
 
+\begin{table}[H]
+\centering
+\caption{Hipoteze o vlogi UI in njihove napovedi}\label{tab:hipoteze}
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{3.1cm} >{\raggedright\arraybackslash}X >{\raggedright\arraybackslash}X}
+\toprule
+Hipoteza & Mehanizem v modelu & Napoved za podatke \\
+\midrule
+\textbf{H1:} UI ne spremeni dolgoročne rasti & $x$ ostane nespremenjen, oziroma $\varphi+\beta<1$; več inputov dvigne raven, ne pa rasti & Rast TFP se med podobdobji sistematično ne spremeni, kljub rasti R\&R in UI-patentov \\
+\textbf{H2:} UI poveča stopnjo tehnološkega napredka $x$ & Enkraten dvig $x$ za $\Delta x$ (enačbi~\eqref{eq:gY} in~\eqref{eq:racrasti}) & Stopničast dvig rasti TFP za $(1-\alpha)\Delta x$, brez nadaljnjega pospeševanja \\
+\textbf{H3:} UI poveča raziskovalne inpute ali njihovo produktivnost & $\gamma$ je sorazmerna z $s\,l^{1-\varphi}$ (enačba~\eqref{eq:gamma}) & Rast R\&R in UI-patentov sledi (z zamikom) višja rast TFP, sorazmerna dvigu inputa \\
+\textbf{H4:} UI poveča donose znanja ($\varphi+\beta>1$) & $\gamma$ narašča z akumulacijo znanja $h$ & Rast TFP narašča skozi čas: 2010--2014 $<$ 2015--2019 $<$ 2020--2025 \\
+\bottomrule
+\end{tabularx}
+\caption*{\footnotesize Vir: lastna zasnova na podlagi \parencites{polanec_rast}{garin2021}.}
+\end{table}
+
+Pri H2--H4 se učinek lahko pokaže z zamikom, ker splošnonamenske tehnologije zahtevajo komplementarne investicije \parencite[str.~28]{polanec_rast}. Odsotnost učinka v kratkem obdobju zato hipotez ne ovrže, vztrajna odsotnost v daljšem obdobju pa jih oslabi. Patenti so le merljiv in delen izid raziskovanja, saj v Romerjevem modelu predstavljajo zaščito inovacije \parencite[str.~27--28]{polanec_rast}. Ker TFP vsebuje tudi druge dejavnike (razdelek~\ref{sec:viri}), preizkus pokaže le skladnost podatkov s posamezno hipotezo, ne vzročnosti.
 \section{Uporaba modela in povezava s podatki}\label{sec:uporaba}
 
 \subsection{R\&R in ustvarjanje novega znanja}

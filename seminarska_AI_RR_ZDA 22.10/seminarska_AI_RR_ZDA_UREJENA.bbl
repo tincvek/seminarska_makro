@@ -19,6 +19,70 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{aghion2019ai}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7c80c989fdd0b446cc5cdac1d9584afe}{%
+           family={Aghion},
+           familyi={A\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ed4887cd39c168b7200165f6c467a449}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Benjamin\bibnamedelima F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=36bf88f6a0c291936a6300dfc04afeb2}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Charles\bibnamedelima I.},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=d379b2563b45b79c2a7d0703c88b412a}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a3d4e21b1e5cc4edaaab0d63cc2de494}{%
+           family={Gans},
+           familyi={G\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1c03aa99078dac095be795ecb415c439}{%
+           family={Goldfarb},
+           familyi={G\bibinitperiod},
+           given={Avi},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{46ab2dec64caff92c59016056059bb81}
+      \strng{fullhash}{46ab2dec64caff92c59016056059bb81}
+      \strng{fullhashraw}{46ab2dec64caff92c59016056059bb81}
+      \strng{bibnamehash}{46ab2dec64caff92c59016056059bb81}
+      \strng{authorbibnamehash}{46ab2dec64caff92c59016056059bb81}
+      \strng{authornamehash}{46ab2dec64caff92c59016056059bb81}
+      \strng{authorfullhash}{46ab2dec64caff92c59016056059bb81}
+      \strng{authorfullhashraw}{46ab2dec64caff92c59016056059bb81}
+      \strng{editorbibnamehash}{7a33f2eccf739d3f412657ae8e5d9599}
+      \strng{editornamehash}{7a33f2eccf739d3f412657ae8e5d9599}
+      \strng{editorfullhash}{7a33f2eccf739d3f412657ae8e5d9599}
+      \strng{editorfullhashraw}{7a33f2eccf739d3f412657ae8e5d9599}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Economics of Artificial Intelligence: An Agenda}
+      \field{note}{Prvotno: NBER Working Paper 23928, 2017}
+      \field{title}{Artificial Intelligence and Economic Growth}
+      \field{year}{2019}
+    \endentry
     \entry{bresnahan1995}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a45e952216a4661b3c133a6742ab669a}{%
@@ -140,39 +204,6 @@
       \endverb
       \verb{url}
       \verb https://ncses.nsf.gov/pubs/nsf26314
-      \endverb
-    \endentry
-    \entry{nitrd2025}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a02c112fb4f91036b7942970aa9cd5f1}{%
-           family={{Networking and Information Technology Research and Development Program}},
-           familyi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{a02c112fb4f91036b7942970aa9cd5f1}
-      \strng{fullhash}{a02c112fb4f91036b7942970aa9cd5f1}
-      \strng{fullhashraw}{a02c112fb4f91036b7942970aa9cd5f1}
-      \strng{bibnamehash}{a02c112fb4f91036b7942970aa9cd5f1}
-      \strng{authorbibnamehash}{a02c112fb4f91036b7942970aa9cd5f1}
-      \strng{authornamehash}{a02c112fb4f91036b7942970aa9cd5f1}
-      \strng{authorfullhash}{a02c112fb4f91036b7942970aa9cd5f1}
-      \strng{authorfullhashraw}{a02c112fb4f91036b7942970aa9cd5f1}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Artificial Intelligence R\&D Investments Fiscal Year 2019--Fiscal Year 2025}
-      \field{urlday}{20}
-      \field{urlmonth}{10}
-      \field{urlyear}{2026}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.nitrd.gov/ai-rd-investments/
-      \endverb
-      \verb{url}
-      \verb https://www.nitrd.gov/ai-rd-investments/
       \endverb
     \endentry
     \entry{openai2022}{online}{}{}
@@ -334,39 +365,6 @@
       \endverb
       \verb{url}
       \verb https://www.bls.gov/news.release/archives/prod3_03192026.htm
-      \endverb
-    \endentry
-    \entry{uspto2025aipd}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=230550a629e507b9206adb89aee6bc94}{%
-           family={{United States Patent and Trademark Office}},
-           familyi={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{230550a629e507b9206adb89aee6bc94}
-      \strng{fullhash}{230550a629e507b9206adb89aee6bc94}
-      \strng{fullhashraw}{230550a629e507b9206adb89aee6bc94}
-      \strng{bibnamehash}{230550a629e507b9206adb89aee6bc94}
-      \strng{authorbibnamehash}{230550a629e507b9206adb89aee6bc94}
-      \strng{authornamehash}{230550a629e507b9206adb89aee6bc94}
-      \strng{authorfullhash}{230550a629e507b9206adb89aee6bc94}
-      \strng{authorfullhashraw}{230550a629e507b9206adb89aee6bc94}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Artificial Intelligence Patent Dataset (AIPD) 2023 Update}
-      \field{urlday}{20}
-      \field{urlmonth}{10}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.uspto.gov/ip-policy/economic-research/research-datasets/artificial-intelligence-patent-dataset
-      \endverb
-      \verb{url}
-      \verb https://www.uspto.gov/ip-policy/economic-research/research-datasets/artificial-intelligence-patent-dataset
       \endverb
     \endentry
   \enddatalist
