@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.13)  26 OCT 2026 23:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.13)  26 OCT 2026 23:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1009,20 +1009,15 @@ Overfull \hbox (96.02965pt too wide) in paragraph at lines 239--249
  [][] 
  []
 
-[9] [10] [11{C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [12] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 415--416
-
- []
-
-[15]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 433.
+[9] [10] [11{C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [12] [13] [14] [15]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 435.
  (C:\Users\mihar\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [16{C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [17]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 452.
+) [16{C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [17] [18]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 454.
  (C:\Users\mihar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [18] (seminarska_AI_RR_ZDA_UREJENA.aux)
+) [19] (seminarska_AI_RR_ZDA_UREJENA.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1034,17 +1029,17 @@ Package logreq Info: Writing requests to 'seminarska_AI_RR_ZDA_UREJENA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42196 strings out of 474486
- 956506 string characters out of 5743754
+ 42197 strings out of 474486
+ 956513 string characters out of 5743754
  1946542 words of memory out of 5000000
  63772 multiletter control sequences out of 15000+600000
  628198 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,107p,1278b,2324s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (18 pages, 395330 bytes).
+Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (19 pages, 396270 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
+ 488 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
  245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

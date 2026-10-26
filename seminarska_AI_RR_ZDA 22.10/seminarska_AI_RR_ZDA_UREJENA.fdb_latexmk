@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber seminarska_AI_RR_ZDA_UREJENA"] 1793054850.36158 "seminarska_AI_RR_ZDA_UREJENA.bcf" "seminarska_AI_RR_ZDA_UREJENA.bbl" "seminarska_AI_RR_ZDA_UREJENA" 1793054866.66293 0
-  "seminarska_AI_RR_ZDA_UREJENA.bcf" 1793054866 113034 cb92c0da454d2de928571a6d3f5f3972 "pdflatex"
+["biber seminarska_AI_RR_ZDA_UREJENA"] 1793055420.36415 "seminarska_AI_RR_ZDA_UREJENA.bcf" "seminarska_AI_RR_ZDA_UREJENA.bbl" "seminarska_AI_RR_ZDA_UREJENA" 1793055436.51138 0
+  "seminarska_AI_RR_ZDA_UREJENA.bcf" 1793055436 113034 cb92c0da454d2de928571a6d3f5f3972 "pdflatex"
   "viri.bib" 1793030969 3306 60f51a9927f092ef9aff4740bc2c65c4 ""
   (generated)
   "seminarska_AI_RR_ZDA_UREJENA.bbl"
   "seminarska_AI_RR_ZDA_UREJENA.blg"
   (rewritten before read)
-["pdflatex"] 1793054862.83979 "c:/Users/mihar/OneDrive/MIHA/FAKS/1. letnik/makroekonomija/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" "seminarska_AI_RR_ZDA_UREJENA.pdf" "seminarska_AI_RR_ZDA_UREJENA" 1793054866.66413 0
+["pdflatex"] 1793055432.3328 "c:/Users/mihar/OneDrive/MIHA/FAKS/1. letnik/makroekonomija/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" "seminarska_AI_RR_ZDA_UREJENA.pdf" "seminarska_AI_RR_ZDA_UREJENA" 1793055436.51272 0
   "C:/Users/mihar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1793031537 83537 02a664bae19768fff9f97d0ded668270 ""
   "C:/Users/mihar/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1763040429 24225047 22aa737c0fa267564c88e3ff76c5d345 ""
   "C:/Users/mihar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -263,15 +263,15 @@
   "C:/Users/mihar/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/mihar/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/mihar/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/mihar/OneDrive/MIHA/FAKS/1. letnik/makroekonomija/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" 1793054843 41144 24843f81d71046674515dd56dcd3a757 ""
+  "c:/Users/mihar/OneDrive/MIHA/FAKS/1. letnik/makroekonomija/seminarska_makro/seminarska_AI_RR_ZDA 22.10/seminarska_AI_RR_ZDA_UREJENA.tex" 1793055418 41597 a335d023804e47bf841579a96e351cf5 ""
   "podatki_rnd_usa.csv" 1792682824 203 67afe100694bbec68644b9d198b209b7 ""
   "podatki_tfp_usa.csv" 1792682824 179 323c8afc1253f72315e490ef5dc05c3b ""
-  "seminarska_AI_RR_ZDA_UREJENA.aux" 1793054866 15172 a02c35861ce8bc10c703c18f3dc8e850 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.bbl" 1793054859 17055 235187f60664061d3e7c8b3409717978 "biber seminarska_AI_RR_ZDA_UREJENA"
-  "seminarska_AI_RR_ZDA_UREJENA.out" 1793054866 6246 459d812cd96e8849aa2e428db7f0da08 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.run.xml" 1793054866 2473 c1aba07fe40b65c958fe45d331971bd5 "pdflatex"
-  "seminarska_AI_RR_ZDA_UREJENA.tex" 1793054843 41144 24843f81d71046674515dd56dcd3a757 ""
-  "seminarska_AI_RR_ZDA_UREJENA.toc" 1793054866 2770 e542ad468554516532f8950ee8575677 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.aux" 1793055436 15172 63ba56f476bb69b09822d2a738db7223 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.bbl" 1793055423 17055 235187f60664061d3e7c8b3409717978 "biber seminarska_AI_RR_ZDA_UREJENA"
+  "seminarska_AI_RR_ZDA_UREJENA.out" 1793055436 6246 459d812cd96e8849aa2e428db7f0da08 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.run.xml" 1793055436 2473 c1aba07fe40b65c958fe45d331971bd5 "pdflatex"
+  "seminarska_AI_RR_ZDA_UREJENA.tex" 1793055418 41597 a335d023804e47bf841579a96e351cf5 ""
+  "seminarska_AI_RR_ZDA_UREJENA.toc" 1793055436 2770 8f7fd31f3b35b5a6fbbef287a20d5cfe "pdflatex"
   (generated)
   "seminarska_AI_RR_ZDA_UREJENA.aux"
   "seminarska_AI_RR_ZDA_UREJENA.bcf"
