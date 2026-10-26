@@ -206,6 +206,39 @@
       \verb https://ncses.nsf.gov/pubs/nsf26314
       \endverb
     \endentry
+    \entry{nitrd2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a02c112fb4f91036b7942970aa9cd5f1}{%
+           family={{Networking and Information Technology Research and Development Program}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{fullhash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{fullhashraw}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{bibnamehash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{authorbibnamehash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{authornamehash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{authorfullhash}{a02c112fb4f91036b7942970aa9cd5f1}
+      \strng{authorfullhashraw}{a02c112fb4f91036b7942970aa9cd5f1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Artificial Intelligence R\&D Investments Fiscal Year 2019--Fiscal Year 2025}
+      \field{urlday}{20}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nitrd.gov/ai-rd-investments/
+      \endverb
+      \verb{url}
+      \verb https://www.nitrd.gov/ai-rd-investments/
+      \endverb
+    \endentry
     \entry{openai2022}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0523b13262b12c215d8009938f5c14f1}{%
@@ -365,6 +398,39 @@
       \endverb
       \verb{url}
       \verb https://www.bls.gov/news.release/archives/prod3_03192026.htm
+      \endverb
+    \endentry
+    \entry{uspto2025aipd}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=230550a629e507b9206adb89aee6bc94}{%
+           family={{United States Patent and Trademark Office}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{230550a629e507b9206adb89aee6bc94}
+      \strng{fullhash}{230550a629e507b9206adb89aee6bc94}
+      \strng{fullhashraw}{230550a629e507b9206adb89aee6bc94}
+      \strng{bibnamehash}{230550a629e507b9206adb89aee6bc94}
+      \strng{authorbibnamehash}{230550a629e507b9206adb89aee6bc94}
+      \strng{authornamehash}{230550a629e507b9206adb89aee6bc94}
+      \strng{authorfullhash}{230550a629e507b9206adb89aee6bc94}
+      \strng{authorfullhashraw}{230550a629e507b9206adb89aee6bc94}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Artificial Intelligence Patent Dataset (AIPD) 2023 Update}
+      \field{urlday}{20}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.uspto.gov/ip-policy/economic-research/research-datasets/artificial-intelligence-patent-dataset
+      \endverb
+      \verb{url}
+      \verb https://www.uspto.gov/ip-policy/economic-research/research-datasets/artificial-intelligence-patent-dataset
       \endverb
     \endentry
   \enddatalist
