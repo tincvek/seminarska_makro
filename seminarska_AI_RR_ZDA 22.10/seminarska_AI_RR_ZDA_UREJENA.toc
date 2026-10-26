@@ -12,24 +12,19 @@
 \contentsline {subsection}{\numberline {2.5}Ustvarjanje novega znanja: UI-patenti}{8}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Razvoj skupne faktorske produktivnosti}{8}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Primerjava UI-kazalnikov, inovacij in TFP}{9}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Raziskovalne hipoteze}{10}{subsection.2.8}%
-\contentsline {paragraph}{H1:}{10}{section*.7}%
-\contentsline {paragraph}{H2:}{10}{section*.8}%
-\contentsline {paragraph}{3:}{10}{section*.9}%
-\contentsline {paragraph}{H4:}{10}{section*.10}%
-\contentsline {section}{\numberline {3}Teoretični okvir gospodarske rasti}{11}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Viri dolgoročne rasti}{11}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Solow--Swanov model}{11}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Računovodstvo rasti in TFP}{12}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Endogena rast in vloga R\&R}{13}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Umetna inteligenca v modelih rasti: hipoteze}{14}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Uporaba modela in povezava s podatki}{15}{section.4}%
-\contentsline {subsection}{\numberline {4.1}R\&R in ustvarjanje novega znanja}{15}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Umetna inteligenca in produktivnost raziskovalnega procesa}{15}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Prenos novega znanja v TFP}{15}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Primerjava napovedi modela z ugotovitvami}{16}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Kritična presoja in zaključek}{17}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Odgovor na raziskovalno vprašanje}{17}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Presoja in omejitev analize}{17}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Zaključek}{18}{subsection.5.3}%
-\contentsline {section}{Literatura in viri}{20}{section*.14}%
+\contentsline {section}{\numberline {3}Teoretični okvir gospodarske rasti}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Viri dolgoročne rasti}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Solow--Swanov model}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Računovodstvo rasti in TFP}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Endogena rast in vloga R\&R}{12}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Umetna inteligenca v modelih rasti: hipoteze}{13}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Uporaba modela in povezava s podatki}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}R\&R in ustvarjanje novega znanja}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Umetna inteligenca in produktivnost raziskovalnega procesa}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Prenos novega znanja v TFP}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Primerjava napovedi modela z ugotovitvami}{15}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Kritična presoja in zaključek}{16}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Odgovor na raziskovalno vprašanje}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Presoja in omejitev analize}{16}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Zaključek}{17}{subsection.5.3}%
+\contentsline {section}{Literatura in viri}{19}{section*.10}%
