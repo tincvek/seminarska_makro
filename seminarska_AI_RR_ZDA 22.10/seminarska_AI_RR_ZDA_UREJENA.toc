@@ -27,4 +27,4 @@
 \contentsline {subsection}{\numberline {5.1}Odgovor na raziskovalno vprašanje}{16}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Presoja in omejitev analize}{16}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Zaključek}{17}{subsection.5.3}%
-\contentsline {section}{Literatura in viri}{18}{section*.10}%
+\contentsline {section}{Literatura in viri}{19}{section*.10}%
