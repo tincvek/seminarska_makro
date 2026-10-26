@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.10)  27 OCT 2026 00:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.10)  27 OCT 2026 00:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -931,6 +931,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 50.
+ (seminarska_AI_RR_ZDA_UREJENA.out) (seminarska_AI_RR_ZDA_UREJENA.out)
 \@outlinefile=\write5
 \openout5 = `seminarska_AI_RR_ZDA_UREJENA.out'.
 
@@ -983,35 +984,18 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/tincv/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
-No file seminarska_AI_RR_ZDA_UREJENA.toc.
+{C:/Users/tincv/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] (seminarska_AI_RR_ZDA_UREJENA.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+)
 \tf@toc=\write6
 \openout6 = `seminarska_AI_RR_ZDA_UREJENA.toc'.
 
-[2]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 73.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 73.
- [3{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
-LaTeX Warning: Reference `sec:teorija' on page 4 undefined on input line 96.
-
-
-LaTeX Warning: Reference `sec:podatki' on page 4 undefined on input line 99.
-
-
-LaTeX Warning: Reference `sec:teorija' on page 4 undefined on input line 99.
-
-
-LaTeX Warning: Reference `sec:uporaba' on page 4 undefined on input line 99.
-
-
-LaTeX Warning: Reference `sec:zakljucek' on page 4 undefined on input line 99.
-
-[4] [5]
+ [2] [3{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] [4] [5]
 PGFPlots: reading {podatki_rnd_usa.csv}
  [6]
 Overfull \hbox (0.1555pt too wide) in paragraph at lines 171--172
@@ -1025,44 +1009,7 @@ Overfull \hbox (96.02965pt too wide) in paragraph at lines 239--249
  [][] 
  []
 
-
-LaTeX Warning: Reference `sec:hipoteze' on page 9 undefined on input line 251.
-
-[9]
-
-LaTeX Warning: Reference `sec:uporaba' on page 10 undefined on input line 254.
-
-[10]
-
-LaTeX Warning: Reference `eq:gY' on page 11 undefined on input line 280.
-
-
-LaTeX Warning: Reference `eq:prod' on page 11 undefined on input line 287.
-
-[11{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
-
-LaTeX Warning: Reference `eq:gamma' on page 12 undefined on input line 306.
-
-
-LaTeX Warning: Reference `fig:veriga' on page 12 undefined on input line 311.
-
-
-LaTeX Warning: Reference `tab:hipoteze' on page 12 undefined on input line 311.
-
-[12]
-
-LaTeX Warning: Reference `eq:gY' on page 13 undefined on input line 340.
-
-
-LaTeX Warning: Reference `eq:racrasti' on page 13 undefined on input line 340.
-
-
-LaTeX Warning: Reference `eq:gamma' on page 13 undefined on input line 340.
-
-
-LaTeX Warning: Reference `sec:viri' on page 13 undefined on input line 344.
-
-[13] [14] [15]
+[9] [10] [11{C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}] [12] [13] [14] [15]
 Overfull \vbox (61.92119pt too high) has occurred while \output is active []
 
  [16]
@@ -1078,42 +1025,24 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `seminarska_AI_RR_ZDA_UREJENA.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `seminarska_AI_RR_ZDA_UREJENA.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  2EDA07D1163CDC5643EB10835E1E96F6;6521.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                seminarska_AI_RR_ZDA_UREJENA
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `seminarska_AI_RR_ZDA_UREJENA.out' has not changed.
+(rerunfilecheck)             Checksum: 2EDA07D1163CDC5643EB10835E1E96F6;6521.
 Package logreq Info: Writing requests to 'seminarska_AI_RR_ZDA_UREJENA.run.xml'.
 \openout1 = `seminarska_AI_RR_ZDA_UREJENA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42074 strings out of 474486
- 954268 string characters out of 5743754
+ 42200 strings out of 474486
+ 956157 string characters out of 5743754
  1946542 words of memory out of 5000000
- 63653 multiletter control sequences out of 15000+600000
+ 63773 multiletter control sequences out of 15000+600000
  628198 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,107p,1242b,2324s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/tincv/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (20 pages, 377600 bytes).
+Output written on seminarska_AI_RR_ZDA_UREJENA.pdf (20 pages, 398616 bytes).
 PDF statistics:
- 354 PDF objects out of 1000 (max. 8388607)
+ 497 PDF objects out of 1000 (max. 8388607)
  82 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 253 words of extra memory for PDF output out of 10000 (max. 10000000)
 
